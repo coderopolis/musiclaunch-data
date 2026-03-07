@@ -123,7 +123,7 @@ Be concise — just the facts for each resource.`
       {
         type: 'web_search_20250305',
         name: 'web_search',
-        max_uses: 20
+        max_uses: 50
       }
     ],
     maxTokens: 8000
