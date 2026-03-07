@@ -20,9 +20,9 @@ const RESOURCE_FILE = path.join(__dirname, '..', 'sync-resources.json');
 
 // -- Helpers ------------------------------------------------------------------
 
-async function callClaude({ messages, system, tools, maxTokens = 16000 }) {
+async function callClaude({ model = 'claude-sonnet-4-6', messages, system, tools, maxTokens = 16000 }) {
   const body = {
-    model: 'claude-haiku-4.5',
+    model,
     max_tokens: maxTokens,
     system,
     messages
@@ -98,6 +98,7 @@ async function main() {
   console.log('This may take 2-3 minutes...\n');
 
   const researchResponse = await callClaude({
+    model: 'claude-sonnet-4-6',  // Sonnet supports web search
     messages: [
       {
         role: 'user',
@@ -144,6 +145,7 @@ Be concise — just the facts for each resource.`
   const today = new Date().toISOString().split('T')[0];
 
   const jsonResponse = await callClaude({
+    model: 'claude-haiku-4-5-20251001',  // Haiku for cheaper JSON generation (no web search needed)
     messages: [
       {
         role: 'user',
