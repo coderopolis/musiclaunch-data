@@ -18,7 +18,7 @@ const RESOURCE_FILE = path.join(__dirname, '..', 'sync-resources.json');
 
 async function callClaude(messages, system) {
   const body = {
-    model: 'claude-sonnet-4-6-20250514',
+    model: 'claude-sonnet-4-6',
     max_tokens: 16000,
     system,
     messages,
