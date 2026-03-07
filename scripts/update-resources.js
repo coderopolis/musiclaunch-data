@@ -22,7 +22,7 @@ const RESOURCE_FILE = path.join(__dirname, '..', 'sync-resources.json');
 
 async function callClaude({ messages, system, tools, maxTokens = 16000 }) {
   const body = {
-    model: 'claude-haiku-4.5-20251001',
+    model: 'claude-haiku-4.5',
     max_tokens: maxTokens,
     system,
     messages
