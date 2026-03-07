@@ -1,6 +1,10 @@
 // ---------------------------------------------------------------------------
 // Sync Resource Updater — uses Claude API with web search to verify/update
 // resource pricing and details quarterly.
+//
+// Two-phase approach:
+//   Phase 1: Research — Claude uses web search to check each resource
+//   Phase 2: Generate — Claude produces clean JSON from the research
 // ---------------------------------------------------------------------------
 
 const fs = require('fs');
@@ -16,20 +20,15 @@ const RESOURCE_FILE = path.join(__dirname, '..', 'sync-resources.json');
 
 // -- Helpers ------------------------------------------------------------------
 
-async function callClaude(messages, system) {
+async function callClaude({ messages, system, tools, maxTokens = 16000 }) {
   const body = {
     model: 'claude-sonnet-4-6',
-    max_tokens: 16000,
+    max_tokens: maxTokens,
     system,
-    messages,
-    tools: [
-      {
-        type: 'web_search_20250305',
-        name: 'web_search',
-        max_uses: 60
-      }
-    ]
+    messages
   };
+
+  if (tools) body.tools = tools;
 
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
@@ -50,10 +49,34 @@ async function callClaude(messages, system) {
 }
 
 function extractText(response) {
+  const texts = [];
   for (const block of response.content) {
-    if (block.type === 'text') return block.text;
+    if (block.type === 'text') texts.push(block.text);
   }
-  return '';
+  return texts.join('\n');
+}
+
+function extractJSON(text) {
+  // Try parsing the whole thing first
+  try {
+    return JSON.parse(text.trim());
+  } catch { /* continue */ }
+
+  // Strip markdown code fences
+  const stripped = text.replace(/^```json?\s*\n?/m, '').replace(/\n?```\s*$/m, '').trim();
+  try {
+    return JSON.parse(stripped);
+  } catch { /* continue */ }
+
+  // Try to find JSON object in the text
+  const match = text.match(/\{[\s\S]*"resources"\s*:\s*\[[\s\S]*\]\s*\}/);
+  if (match) {
+    try {
+      return JSON.parse(match[0]);
+    } catch { /* continue */ }
+  }
+
+  return null;
 }
 
 // -- Main ---------------------------------------------------------------------
@@ -64,78 +87,99 @@ async function main() {
   const resourceCount = current.resources.length;
   console.log(`Found ${resourceCount} resources (version ${current.version})`);
 
-  // Build a compact summary for Claude to verify
+  // Build a compact summary for research phase
   const resourceSummary = current.resources.map((r, i) => (
-    `${i + 1}. ${r.name} | ${r.url} | Cost: ${r.cost} | Category: ${r.category} | Accepts unsolicited: ${r.acceptsUnsolicited}`
+    `${i + 1}. ${r.name} | ${r.url} | Cost: ${r.cost}`
   )).join('\n');
 
-  const system = `You are a music industry research assistant. Your job is to verify and update a JSON file containing sync licensing resources for independent musicians.
+  // ── Phase 1: Research with web search ──────────────────────────────────────
 
-IMPORTANT RULES:
-1. Use web search to check each resource's website for current pricing, submission status, and whether the service is still active.
-2. Only change fields where you find CONCRETE evidence of a change. Do not guess or assume.
-3. If a website is down or you can't verify info, leave it unchanged and note it.
-4. If you discover a notable NEW sync licensing resource that independent musicians should know about, add it.
-5. If a service has shut down or is no longer accepting submissions, update its description to note this.
-6. Keep descriptions concise (1-3 sentences).
-7. Preserve the exact JSON schema — do not add or remove fields.
+  console.log('\n--- Phase 1: Researching resources with web search ---');
+  console.log('This may take 2-3 minutes...\n');
 
-VALID CATEGORIES: library_free, library_paid, library_selective, marketplace, pitching_service, supervisor_directory, educational, blog, tool, community
+  const researchResponse = await callClaude({
+    messages: [
+      {
+        role: 'user',
+        content: `You are verifying sync licensing resources for a music app. Search the web to check each of these ${resourceCount} resources for current pricing, submission status, and whether they're still active.
 
-RESOURCE SCHEMA (each object in the "resources" array):
-{
-  "name": string,
-  "url": string,
-  "description": string,
-  "category": string (one of the valid categories above),
-  "cost": string,
-  "acceptsUnsolicited": boolean,
-  "highlights": string[] (optional, 1-3 short bullet points)
-}`;
-
-  const userMessage = `Here are the current ${resourceCount} sync licensing resources. Please use web search to verify each one and return an UPDATED version of the full JSON.
-
-CURRENT RESOURCES:
+RESOURCES TO VERIFY:
 ${resourceSummary}
 
-FULL CURRENT JSON:
-${JSON.stringify(current, null, 2)}
+For each resource, briefly note:
+- Is the website still active?
+- Has the pricing changed from what's listed?
+- Are they still accepting submissions?
+- Any important changes?
 
-Please:
-1. Search the web to verify pricing and submission status for each resource
-2. Update any that have changed
-3. Add 1-3 new noteworthy resources if you find any (don't force it — only add genuinely useful ones)
-4. Remove any that have completely shut down
-5. Increment the "version" number by 1
-6. Set "lastUpdated" to today's date (YYYY-MM-DD format)
+Also note if you discover 1-3 NEW noteworthy sync licensing platforms that independent musicians should know about.
 
-Return ONLY the complete updated JSON object — no markdown fences, no explanation before or after. Just the raw JSON.`;
+Be concise — just the facts for each resource.`
+      }
+    ],
+    system: 'You are a music industry research assistant. Use web search to verify each resource. Be concise and factual.',
+    tools: [
+      {
+        type: 'web_search_20250305',
+        name: 'web_search',
+        max_uses: 60
+      }
+    ],
+    maxTokens: 8000
+  });
 
-  console.log('Calling Claude API with web search (this may take a few minutes)...');
+  const research = extractText(researchResponse);
+  console.log(`Phase 1 complete. Usage: ${researchResponse.usage.input_tokens} input, ${researchResponse.usage.output_tokens} output tokens`);
+  console.log(`Research findings (first 300 chars): ${research.substring(0, 300)}...\n`);
 
-  const response = await callClaude(
-    [{ role: 'user', content: userMessage }],
-    system
-  );
-
-  console.log(`API response received. Stop reason: ${response.stop_reason}`);
-  console.log(`Usage: ${response.usage.input_tokens} input, ${response.usage.output_tokens} output tokens`);
-
-  const text = extractText(response);
-
-  if (!text) {
-    console.error('No text content in response');
+  if (!research || research.length < 100) {
+    console.error('Research phase returned insufficient data');
     process.exit(1);
   }
 
-  // Try to parse the JSON from the response
-  let updated;
-  try {
-    // Strip markdown code fences if present
-    const cleaned = text.replace(/^```json?\s*\n?/m, '').replace(/\n?```\s*$/m, '').trim();
-    updated = JSON.parse(cleaned);
-  } catch (err) {
-    console.error('Failed to parse JSON from Claude response:', err.message);
+  // ── Phase 2: Generate updated JSON (no web search needed) ──────────────────
+
+  console.log('--- Phase 2: Generating updated JSON ---\n');
+
+  const today = new Date().toISOString().split('T')[0];
+
+  const jsonResponse = await callClaude({
+    messages: [
+      {
+        role: 'user',
+        content: `Based on the research findings below, produce an updated version of the sync resources JSON.
+
+RESEARCH FINDINGS:
+${research}
+
+CURRENT JSON:
+${JSON.stringify(current, null, 2)}
+
+INSTRUCTIONS:
+1. Update any resources where the research found changes (pricing, status, etc.)
+2. If a service has shut down, update its description to note this
+3. Add any new resources discovered in the research
+4. Remove any that have completely shut down
+5. Set "version" to ${current.version + 1}
+6. Set "lastUpdated" to "${today}"
+7. If no changes were found for a resource, keep it exactly as-is
+
+VALID CATEGORIES: library_free, library_paid, library_selective, marketplace, pitching_service, supervisor_directory, educational, blog, tool, community
+
+YOUR RESPONSE MUST BE ONLY THE JSON OBJECT. No text before it. No text after it. No markdown fences. Start with { and end with }. This is critical — the output will be parsed directly by JSON.parse().`
+      }
+    ],
+    system: 'You are a JSON generator. Output ONLY valid JSON. No explanations, no markdown, no text outside the JSON object. Your entire response must be parseable by JSON.parse().',
+    maxTokens: 16000
+  });
+
+  console.log(`Phase 2 complete. Usage: ${jsonResponse.usage.input_tokens} input, ${jsonResponse.usage.output_tokens} output tokens`);
+
+  const text = extractText(jsonResponse);
+  const updated = extractJSON(text);
+
+  if (!updated) {
+    console.error('Failed to parse JSON from Claude response');
     console.error('Raw response (first 500 chars):', text.substring(0, 500));
     process.exit(1);
   }
