@@ -40,6 +40,17 @@ async function callClaude({ model = 'claude-sonnet-4-6', messages, system, tools
     body: JSON.stringify(body)
   });
 
+  if (res.status === 429) {
+    const retryAfter = parseInt(res.headers.get('retry-after') || '60', 10);
+    const attempt = (arguments[0]._retryAttempt || 0) + 1;
+    if (attempt <= 3) {
+      const waitSec = Math.max(retryAfter, 30) * attempt;
+      console.log(`  Rate limited (429). Waiting ${waitSec}s before retry ${attempt}/3...`);
+      await new Promise(r => setTimeout(r, waitSec * 1000));
+      return callClaude({ ...arguments[0], _retryAttempt: attempt });
+    }
+  }
+
   if (!res.ok) {
     const errText = await res.text();
     throw new Error(`Anthropic API error ${res.status}: ${errText}`);

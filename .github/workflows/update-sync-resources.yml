@@ -2,7 +2,7 @@ name: Quarterly Sync Resource Update
 
 on:
   schedule:
-    # Runs at 9am UTC on the 1st of Jan, Apr, Jul, Oct (every 90 days)
+    # Runs at 9:00am UTC on the 1st of Jan, Apr, Jul, Oct (staggered — sync first)
     - cron: '0 9 1 1,4,7,10 *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 

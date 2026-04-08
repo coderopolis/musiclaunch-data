@@ -2,8 +2,8 @@ name: Quarterly Collaborator Resource Update
 
 on:
   schedule:
-    # Runs at 9am UTC on the 1st of Jan, Apr, Jul, Oct (every 90 days)
-    - cron: '0 9 1 1,4,7,10 *'
+    # Runs at 9:15am UTC on the 1st of Jan, Apr, Jul, Oct (staggered — collab second)
+    - cron: '15 9 1 1,4,7,10 *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 jobs:
