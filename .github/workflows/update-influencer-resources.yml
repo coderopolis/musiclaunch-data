@@ -6,6 +6,16 @@ on:
     - cron: '30 9 1 1,4,7,10 *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
+# All three resource-update workflows share this group so they're serialized
+# rather than racing on `git push`. Without this, manually triggering two
+# workflows at the same time causes the second push to fail with
+# "Updates were rejected because the remote contains work that you do not have locally."
+# `cancel-in-progress: false` means queued runs wait their turn instead of
+# being killed when a new run starts.
+concurrency:
+  group: musiclaunch-data-push
+  cancel-in-progress: false
+
 jobs:
   update-resources:
     runs-on: ubuntu-latest
