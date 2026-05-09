@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-04-01",
+  "version": 4,
+  "lastUpdated": "2026-05-09",
   "resources": [
     {
       "name": "Crucial Music",
@@ -26,7 +26,7 @@
     {
       "name": "Bodega Sync",
       "url": "https://bodegasync.com",
-      "description": "Division of Symphonic Distribution. Curated roster of indie artists/labels. Standard deal: two-year exclusive contract with 30% commission on sync fees. Minimum 10 songs required to start. Symphonic clients get priority; non-Symphonic clients can also apply.",
+      "description": "Division of Symphonic Distribution. Curated roster of indie artists/labels. Standard deal: two-year exclusive contract with 30% commission on sync fees. Minimum 10 songs required to start. Symphonic clients get priority; non-Symphonic clients can also apply. Note: requires a 2-year exclusive contract with 30% commission and does not register songs with PROs.",
       "category": "library_free",
       "cost": "Free (commission-based: 30%)",
       "acceptsUnsolicited": true,
@@ -35,14 +35,6 @@
         "30% commission on sync fees",
         "Minimum 10 songs required"
       ]
-    },
-    {
-      "name": "Artist Portal Studio",
-      "url": "https://artistportal.studio",
-      "description": "Open-call platform for specific sync briefs. Free to submit. Hundreds of live briefs appear monthly across TV, film, trailer, and commercial placements. Offers open calls for specific genres and moods. Strong alternative to UnitedMasters.",
-      "category": "library_free",
-      "cost": "Free to submit",
-      "acceptsUnsolicited": true
     },
     {
       "name": "Directional Music",
@@ -60,7 +52,7 @@
     {
       "name": "TAXI",
       "url": "https://www.taxi.com",
-      "description": "Established in 1992. Publishes screened music-wanted listings from supervisors, labels, ad agencies, and game companies. Membership fee required; does not take commission on deals you land. You keep 100% of negotiated sync deals. Useful for production music and reality TV/cable shows.",
+      "description": "Established in 1992. Publishes screened music-wanted listings from supervisors, labels, ad agencies, and game companies. Membership fee required; does not take commission on deals you land. You keep 100% of negotiated sync deals. Useful for production music and reality TV/cable shows. Note: ~$300/year + $5/submission with reported placement rates around 6%; valuable mostly for feedback rather than placements.",
       "category": "library_paid",
       "cost": "$299/yr first year, $199/yr renewal, plus $5/submission",
       "acceptsUnsolicited": true,
@@ -68,33 +60,6 @@
         "Screened briefs from real supervisors",
         "You keep 100% of your deals",
         "Mixed ROI reviews"
-      ]
-    },
-    {
-      "name": "Music Gateway",
-      "url": "https://www.musicgateway.com",
-      "description": "Partnerships with Disney, Netflix, Universal. Artists keep 50-80% of sync fees depending on plan and exclusivity. You keep 100% backend royalties. Pitches to execs in London and LA. NOTE: Free tier eliminated as of January 31, 2025. All users must now subscribe.",
-      "category": "library_paid",
-      "cost": "$7.50/month (Adventurer), $22/month (Influencer), $37/month (GameChanger)",
-      "acceptsUnsolicited": true,
-      "highlights": [
-        "Major brand partnerships",
-        "High artist payout",
-        "Free tier no longer available as of Jan 31, 2025"
-      ]
-    },
-    {
-      "name": "Broadjam",
-      "url": "https://www.broadjam.com",
-      "description": "Connects 110,000+ artists with supervisors and ad agencies. Four membership levels: Mini (free, $20/submission); MoB ($4.95/month or $49.95/year, $15/submission); Film/TV ($9.95/month or $99.95/year, $5/submission); Primo ($19.95–$49.95/month or $199.95/year, $5/submission). Artists keep 100% of sync fees and PRO royalties. Mixed reviews; low selection rates relative to submission volumes.",
-      "category": "library_paid",
-      "cost": "Mini free ($20/submission) to Primo $200/yr ($5/submission)",
-      "acceptsUnsolicited": true,
-      "highlights": [
-        "100% to artist",
-        "Large network",
-        "Multiple tiers",
-        "Use with realistic expectations"
       ]
     },
     {
@@ -159,7 +124,7 @@
     {
       "name": "Pond5",
       "url": "https://www.pond5.com",
-      "description": "One of the largest royalty-free media marketplaces (25M+ stock clips). Artists upload tracks and set their own prices. Updated January 2025: Artists earn 30% royalty (flat rate across all content types). Non-exclusive model. Part of Shutterstock family since 2022 but operates as distinct platform.",
+      "description": "One of the largest royalty-free media marketplaces (25M+ stock clips). Artists upload tracks and set their own prices. Updated January 2025: Artists earn 30% royalty (flat rate across all content types). Non-exclusive model. Part of Shutterstock family since 2022 but operates as distinct platform. Composer note: 30% royalty cut per sale; contributor music has been used for AI training.",
       "category": "marketplace",
       "cost": "Free to upload; Pond5 takes 70% (artists earn 30%)",
       "acceptsUnsolicited": true,
@@ -184,7 +149,7 @@
     {
       "name": "Epidemic Sound",
       "url": "https://www.epidemicsound.com",
-      "description": "Artists receive fixed upfront fees plus bonus payouts. As of Q1 2026, fixed fees range $2,000-$8,000 per track (based on complexity, demand, role, skillset). Paid before track goes live. 43% boost to bonus payouts in 2026. CRITICAL: Works exclusively with artists NOT registered with PROs. PRO members cannot participate.",
+      "description": "Artists receive fixed upfront fees plus bonus payouts. As of Q1 2026, fixed fees range $2,000-$8,000 per track (based on complexity, demand, role, skillset). Paid before track goes live. 43% boost to bonus payouts in 2026. CRITICAL: Works exclusively with artists NOT registered with PROs. PRO members cannot participate. Composer note: Epidemic uses 100% buy-out contracts that have been formally denounced by the European Composer & Songwriter Alliance — composers transfer rights for the full term of protection and lose PRO royalties.",
       "category": "marketplace",
       "cost": "Free for artists to apply",
       "acceptsUnsolicited": true,
@@ -209,19 +174,6 @@
       ]
     },
     {
-      "name": "That Pitch",
-      "url": "https://thatpitch.com",
-      "description": "Distributes your tracks to 100+ sync libraries worldwide. Handles metadata and compliance. You keep 100% of earnings. Free tier grants unlimited uploads to one library; paid tier unlocks 100+ libraries and briefs. Nearly 10-year track record with tens of thousands of placements. Active through early 2026.",
-      "category": "pitching_service",
-      "cost": "Free tier (1 library); paid tier for 100+ libraries",
-      "acceptsUnsolicited": true,
-      "highlights": [
-        "100+ libraries",
-        "100% earnings to artist",
-        "Established 10-year platform"
-      ]
-    },
-    {
       "name": "Ditto Pro (Sync Dashboard)",
       "url": "https://dittomusic.com/en/sync",
       "description": "Ditto Pro subscribers access sync briefs across TV, film, and ad campaigns. Three subscription plans: Starter ($14/year), Pro ($39/year), Label ($59-$219/year). Dashboard offers curated access to latest sync opportunities from Netflix, HBO, BBC and more. Ditto reviews tracks and pitches on your behalf.",
@@ -231,32 +183,6 @@
       "highlights": [
         "Placements with Netflix, HBO, BBC",
         "Pro plan updated to $39/year"
-      ]
-    },
-    {
-      "name": "Music Xray (SmashHaus)",
-      "url": "https://www.musicxray.com",
-      "description": "Rebranded as SmashHaus - Music Xray after acquisition. Free to join; no monthly fees; they don't take commission from deals. Most opportunities charge per-submission fees ($4-$35). Site feels outdated but active with regularly refreshed opportunities. Mixed reviews; use cautiously.",
-      "category": "pitching_service",
-      "cost": "Free to join; submission fees vary per opportunity",
-      "acceptsUnsolicited": true,
-      "highlights": [
-        "No commission on deals",
-        "Recently rebranded",
-        "Use with caution"
-      ]
-    },
-    {
-      "name": "UnitedMasters SELECT",
-      "url": "https://unitedmasters.com",
-      "description": "SELECT members submit music for sync and brand deals (NBA, ESPN, etc.). Also provides distribution. SELECT Plan: $59.99/year (artists keep 100% of royalties). New DEBUT+ Plan: $19.99/year (lower tier option). Non-exclusive. Partners with major brands.",
-      "category": "pitching_service",
-      "cost": "$59.99/year (SELECT); $19.99/year (DEBUT+)",
-      "acceptsUnsolicited": true,
-      "highlights": [
-        "Brand deals with NBA, ESPN",
-        "New lower-tier DEBUT+ plan",
-        "100% artist royalties"
       ]
     },
     {

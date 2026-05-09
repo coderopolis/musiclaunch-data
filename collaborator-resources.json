@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "lastUpdated": "2026-05-09",
   "resources": [
     {
@@ -53,19 +53,6 @@
         "Latin Grammy-winning musicians on roster",
         "Netflix, HBO, Disney+ placements",
         "Series A funded — rapidly expanding platform"
-      ]
-    },
-    {
-      "name": "Studio Pros",
-      "url": "https://studiopros.com",
-      "description": "Los Angeles-based online studio offering work-for-hire session musicians. Upload your song, get a preview in 48 hours, request revisions, and download final files. You own 100% of the recording. Contact for specific per-track pricing.",
-      "category": "session_musicians",
-      "cost": "Contact for per-track pricing and full production quotes. Video production pricing available upon request.",
-      "highlights": [
-        "Work-for-hire — you own all rights",
-        "Money-back guarantee on first song",
-        "48-hour preview turnaround",
-        "Active in 2025 with recent promotional events"
       ]
     },
     {
@@ -164,7 +151,7 @@
     {
       "name": "LANDR",
       "url": "https://www.landr.com",
-      "description": "AI-powered mastering platform. Upload your track and get an instant master. Includes distribution to streaming platforms, sample packs, mastering plugin. Plan names updated; social platform monetization (YouTube, TikTok, Facebook, Instagram) removed from Basic tier as of June 2025.",
+      "description": "AI-powered mastering platform. Upload your track and get an instant master. Includes distribution to streaming platforms, sample packs, mastering plugin. Plan names updated; social platform monetization (YouTube, TikTok, Facebook, Instagram) removed from Basic tier as of June 2025. Note: AI mastering is solid; the distribution side has reported account-suspension complaints — best to use for mastering only.",
       "category": "mixing_mastering",
       "cost": "Studio $19.99/mo ($11.99/mo annual); Studio Pro $39.99/mo ($15.99/mo annual). Distribution Basic $24/year; Distribution Pro $45/year. 20–36% discount on annual billing.",
       "highlights": [
@@ -178,7 +165,7 @@
     {
       "name": "eMastered",
       "url": "https://emastered.com",
-      "description": "AI mastering service co-founded by a Grammy-winning engineer (Smith Carlson, Taylor Swift's 1989). More mastering controls than LANDR — adjust EQ, compression, stereo width, and loudness. ⚠️ NOTE: Consumer reports of billing issues and difficulty cancelling subscriptions exist.",
+      "description": "AI mastering service co-founded by a Grammy-winning engineer (Smith Carlson, Taylor Swift's 1989). More mastering controls than LANDR — adjust EQ, compression, stereo width, and loudness. ⚠️ NOTE: Consumer reports of billing issues and difficulty cancelling subscriptions exist. Note: mastering quality is strong, but cancellation/refund process has documented billing issues — review subscription terms carefully.",
       "category": "mixing_mastering",
       "cost": "Pricing varies: approximately $15–$19/mo (annual billing) or $45–$49/mo (monthly). Includes unlimited high-res WAV downloads.",
       "highlights": [
@@ -300,20 +287,6 @@
       ]
     },
     {
-      "name": "Vampr",
-      "url": "https://www.vampr.me",
-      "description": "The #1 music industry networking app — like LinkedIn for musicians. Swipe-based discovery connects you with musicians, producers, engineers, and industry professionals. Acquired by Vinyl Group in June 2023. All users can now distribute music free to Spotify, Apple Music, Deezer and major DSPs.",
-      "category": "collaboration_networking",
-      "cost": "Free tier: music distribution available; keep 80% of royalties. Pro: $19.99/3 months or $44.99/year; Pro users keep 100% of royalties.",
-      "highlights": [
-        "1M+ musicians and industry professionals",
-        "9M+ connections made",
-        "Free music distribution for all users",
-        "Apple \"Best of 2017\"; Fast Company Most Innovative",
-        "Owned by Vinyl Group since June 2023"
-      ]
-    },
-    {
       "name": "BandLab",
       "url": "https://www.bandlab.com",
       "description": "Free cloud-based DAW and social music platform with 100M+ users. Create, collaborate with up to 50 people per project, and share music — all from your browser or phone. Acquired Airbit in 2023, expanding its ecosystem with integrated beat marketplace.",
@@ -330,7 +303,7 @@
     {
       "name": "BandMix",
       "url": "https://www.bandmix.com",
-      "description": "The largest musician classifieds site for finding local band members, session players, and music industry professionals. Search by location, instrument, genre, and experience level. ⚠️ Note: Multiple BBB complaints and Trustpilot reviews cite aggressive auto-renewal billing practices.",
+      "description": "The largest musician classifieds site for finding local band members, session players, and music industry professionals. Search by location, instrument, genre, and experience level. ⚠️ Note: Multiple BBB complaints and Trustpilot reviews cite aggressive auto-renewal billing practices. Note: some users report renewal billing after cancellation — disable auto-renew when signing up.",
       "category": "collaboration_networking",
       "cost": "Free account (limited). Premier: $12.95/mo, $33.95/3mo, or $99.95/yr ($8.33/mo).",
       "highlights": [

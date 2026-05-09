@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "lastUpdated": "2026-05-09",
   "resources": [
     {
@@ -36,7 +36,7 @@
     {
       "name": "MusoSoup",
       "url": "https://musosoup.com",
-      "description": "Marketplace where music curators actively search for new music. Submit once for £42 (paid only if approved), then choose free coverage offers or pay for additional curator pitches. Curators come to you — no cold pitching required. Campaign duration: 21 days.",
+      "description": "Marketplace where music curators actively search for new music. Submit once for £42 (paid only if approved), then choose free coverage offers or pay for additional curator pitches. Curators come to you — no cold pitching required. Campaign duration: 21 days. Note: most curator placements require additional per-curator payments beyond the platform subscription fee — budget accordingly.",
       "category": "submission_platforms",
       "cost": "£42 per campaign (paid only if approved); average artist spend ~£80 on coverage with free options available",
       "highlights": [
@@ -161,22 +161,6 @@
       ]
     },
     {
-      "name": "PlaylistSupply",
-      "url": "https://playlistsupply.com",
-      "description": "Spotify playlist analytics and discovery tool. Find playlists that match your genre, see their growth trends, identify curators actively adding music, and access full playlist analysis with live follower counts, curator profiles, and popularity rankings. Focus on DIY playlist research and curator outreach.",
-      "category": "playlist_curators",
-      "cost": "Indie $24.99/mo (25 credits); Viral $39.99/mo (50 credits); Record Label $69.99/mo (100 credits)",
-      "highlights": [
-        "Playlist growth analytics",
-        "Curator activity tracking",
-        "Genre & mood matching",
-        "Live follower data",
-        "Tiered subscription plans",
-        "DIY research focus",
-        "Direct curator outreach tools"
-      ]
-    },
-    {
       "name": "Hypeddit",
       "url": "https://hypeddit.com",
       "description": "Music promotion platform with free and paid tiers. Core feature: download gates (fans follow or pre-save to unlock free download). Paid plans include Free Plan (basic fan gates), Pro Plan $9.99/month, Premium Plan $19.99/month, and Label Plan $49.99/month. Strong in EDM; works across genres. Some analysts caution against building long-term infrastructure on Hypeddit.",
@@ -222,21 +206,6 @@
       ]
     },
     {
-      "name": "Vampr",
-      "url": "https://vampr.me",
-      "description": "Social platform helping musicians and creatives find collaborators, create new music, and monetize their work. Originally a music networking/collaboration app (the 'LinkedIn for musicians'). Free app available; Pro pricing not strongly represented in recent 2025–2026 searches. Status unclear — recommend verifying directly.",
-      "category": "playlist_curators",
-      "cost": "Free app; Pro pricing unclear (verify directly)",
-      "highlights": [
-        "Musician social network",
-        "Direct creator connections",
-        "Collaboration opportunities",
-        "Monetization tools",
-        "Free to start",
-        "⚠️ Status unclear — verify directly"
-      ]
-    },
-    {
       "name": "Feature.fm",
       "url": "https://feature.fm",
       "description": "Smart links, pre-save pages, bounce redirects, territory-based routing, and fan messaging platform. Provides full marketing funnel tools for tracking campaign results. Does almost everything — from bio links and bounce redirects to territory-based sorting and fan messaging. Widely considered the top smart link tool for independent artists.",
@@ -266,50 +235,6 @@
         "Pixel tracking available",
         "Streaming service visibility",
         "Major-label standard tool"
-      ]
-    },
-    {
-      "name": "ToneDen",
-      "url": "https://toneden.io",
-      "description": "⚠️ CAUTION: Social marketing suite with smart links, social unlocks (fan-gating), and automated ad campaigns. Primary domain fanlink.to broke in March 2024; migrated to fanlink.tv. Acquired by Eventbrite in 2020; Eventbrite acquired by Bending Spoons in December 2025. Pricing much higher than previously listed: $50/mo minimum, climbing to $1,300/mo. G2 profile notes company inactive for over a year. Future uncertain.",
-      "category": "smart_links",
-      "cost": "⚠️ UPDATED: Minimum $50/mo (can reach $1,300/mo); fanlink.to broken (use fanlink.tv)",
-      "highlights": [
-        "Fan-gating / social unlocks",
-        "Automated ad campaigns",
-        "Spotify follow-to-unlock",
-        "⚠️ Domain fanlink.tv (fanlink.to broken)",
-        "⚠️ Eventbrite acquired by Bending Spoons (Dec 2025)",
-        "⚠️ Much higher pricing ($50+/mo)",
-        "⚠️ Low development activity — use with caution"
-      ]
-    },
-    {
-      "name": "Songwhip",
-      "url": "https://songwhip.com",
-      "description": "❌ SHUT DOWN — Songwhip was among the top five smart link tools but has officially shut down as of 2025. Artists have had to switch to alternatives. Soundplate Clicks is the most frequently cited replacement.",
-      "category": "smart_links",
-      "cost": "❌ SERVICE DISCONTINUED",
-      "highlights": [
-        "❌ DISCONTINUED",
-        "Was: Free instant link generation",
-        "Was: Clean landing pages",
-        "Alternative: Soundplate Clicks"
-      ]
-    },
-    {
-      "name": "Feedspot",
-      "url": "https://www.feedspot.com",
-      "description": "Database of 250,000+ active influencers across TikTok, Instagram, YouTube, and Twitter in 1,500+ niche categories. Search for music influencers by platform, genre, and audience size. Offers contact lists with email addresses. Website active and referenced in industry round-ups. Primarily used to find lists of music blogs for outreach.",
-      "category": "discovery_research",
-      "cost": "Lists ~$99 one-time (verify directly for current pricing)",
-      "highlights": [
-        "250K+ influencer profiles",
-        "1,500+ niche categories",
-        "Email contact lists",
-        "Cross-platform coverage",
-        "Active platform",
-        "Music blog discovery focus"
       ]
     },
     {
@@ -406,40 +331,6 @@
         "Fan connection features",
         "Must-include indie artist tool",
         "Creator hub access"
-      ]
-    },
-    {
-      "name": "un:hurd music",
-      "url": "https://unhurd.com",
-      "description": "All-in-one music marketing platform using AI to analyze music, audience, and streaming data to build personalized marketing strategies. Membership-based approach (monthly or annual) with included credits. After 7-day free trial: 10 free credits on monthly or 120 free credits on annual plans. Credits unlock advertising tools (Spotify, YouTube, Meta, TikTok), playlist pitching, content creation tools, website generation, and more. Takes fundamentally different approach vs. per-submission platforms.",
-      "category": "tiktok_promotion",
-      "cost": "Subscription-based (monthly or annual); 7-day free trial; 10 free credits (monthly) or 120 free credits (annual) after trial",
-      "highlights": [
-        "All-in-one music marketing",
-        "AI-powered personalized strategy",
-        "Subscription + credits model",
-        "Multi-platform ad tools",
-        "Playlist pitching included",
-        "Content creation tools",
-        "Website generator",
-        "7-day free trial",
-        "UPDATED: Subscription + credits model confirmed"
-      ]
-    },
-    {
-      "name": "Matchfy",
-      "url": "https://matchfy.io",
-      "description": "NEW PLATFORM: AI-powered playlist pitching platform using audio analysis to match tracks with compatible playlists and curators. Algorithmic matching aims to increase acceptance rates and relevance. Provides performance reporting post-campaign tracking streams, saves, and listener data. Free tier available for basic access.",
-      "category": "playlist_curators",
-      "cost": "Free tier available; premium tiers available (verify directly)",
-      "highlights": [
-        "NEW: Audio analysis matching",
-        "AI-powered curation matching",
-        "Higher acceptance rates",
-        "Performance reporting",
-        "Stream & save tracking",
-        "Free tier available",
-        "Lower barrier to entry vs. credits-based platforms"
       ]
     },
     {
