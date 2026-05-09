@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-03-08",
+  "version": 3,
+  "lastUpdated": "2026-05-09",
   "resources": [
     {
       "name": "SoundBetter",
@@ -18,14 +18,15 @@
     {
       "name": "AirGigs",
       "url": "https://www.airgigs.com",
-      "description": "Marketplace for hiring session musicians, vocalists, and audio engineers for remote recording. Launched in 2012, it features detailed artist profiles, audio samples, and secure escrow payments.",
+      "description": "Marketplace for hiring session musicians, vocalists, and audio engineers for remote recording. Launched in 2012, it features detailed artist profiles, audio samples, and secure escrow payments. Now offers a \"Subscribe & Save\" discount option for buyers on select listings.",
       "category": "session_musicians",
       "cost": "Free to browse. Buyers pay 4.7% service fee (minimum $5). Sellers: Top Rated/Featured receive 90% (10% to AirGigs); non-featured receive 85% (15% to AirGigs). Minimum commission $8 per order.",
       "highlights": [
         "Escrow payment protection",
         "2% cash bonus on $1,000+ withdrawals",
         "Open marketplace — no curation barrier",
-        "Tiered commission structure rewards Top Rated sellers"
+        "Tiered commission structure rewards Top Rated sellers",
+        "Subscribe & Save discount option for buyers"
       ]
     },
     {
@@ -33,7 +34,7 @@
       "url": "https://www.fiverr.com/categories/music-audio/session-musicians",
       "description": "Global freelance marketplace with a large Music & Audio category. Find session guitarists, drummers, bassists, vocalists, and more. Filter by instrument, genre, budget, and delivery time.",
       "category": "session_musicians",
-      "cost": "Services start at ~$5. Average session musician gig: $50–$400. Buyers pay 5.5% service fee + $2 small-order fee on orders under $50.",
+      "cost": "Services start at ~$5. Average session musician gig: $50–$400. Buyers pay 5.5% service fee + $2 small-order fee on orders under $50. Sellers pay 20% commission.",
       "highlights": [
         "Largest freelance marketplace",
         "Pro-Verified tier for vetted professionals",
@@ -43,15 +44,15 @@
     {
       "name": "Musiversal",
       "url": "https://musiversal.com",
-      "description": "Subscription-based platform for live, directed recording sessions with world-class musicians. Collaborate in real time, give feedback instantly, and receive takes within 15 minutes. Raised $6M Series A in September 2025 for US expansion and new services including co-writing, production, and marketing.",
+      "description": "Subscription-based platform for live, directed recording sessions with world-class musicians. Collaborate in real time, give feedback instantly, and receive takes within 15 minutes. Raised $6M Series A in September 2025 (led by Iberis Capital) for expansion and new services including co-writing, production, and marketing.",
       "category": "session_musicians",
-      "cost": "Unlimited subscription: $199–$249/mo (verify current pricing on site). 100+ musicians, 1,000+ members, 100,000+ sessions per year.",
+      "cost": "Unlimited subscription: $249/mo (increased from $199/mo on September 1, 2025; lower tier no longer available). 1,000+ members, 100+ musicians, 100,000+ sessions per year.",
       "highlights": [
         "Live directed sessions — not pre-recorded",
         "All instruments: drums, guitar, bass, keys, strings, horns, vocals",
         "Latin Grammy-winning musicians on roster",
         "Netflix, HBO, Disney+ placements",
-        "Rapidly expanding with Series A funding"
+        "Series A funded — rapidly expanding platform"
       ]
     },
     {
@@ -59,12 +60,12 @@
       "url": "https://studiopros.com",
       "description": "Los Angeles-based online studio offering work-for-hire session musicians. Upload your song, get a preview in 48 hours, request revisions, and download final files. You own 100% of the recording. Contact for specific per-track pricing.",
       "category": "session_musicians",
-      "cost": "Contact for per-track pricing and full production quotes. Video production: $1,099 full music video, $599 lyric video, $99 static frame.",
+      "cost": "Contact for per-track pricing and full production quotes. Video production pricing available upon request.",
       "highlights": [
         "Work-for-hire — you own all rights",
         "Money-back guarantee on first song",
         "48-hour preview turnaround",
-        "Pricing requires direct inquiry"
+        "Active in 2025 with recent promotional events"
       ]
     },
     {
@@ -82,27 +83,29 @@
     {
       "name": "BeatStars",
       "url": "https://www.beatstars.com",
-      "description": "The largest beat-selling marketplace connecting producers and artists. Browse, preview, and license beats with instant delivery. Supports exclusive and non-exclusive licenses.",
+      "description": "The largest beat-selling marketplace connecting producers and artists. Browse, preview, and license beats with instant delivery. Supports exclusive and non-exclusive licenses. Subscription plans restructured as of September 2024.",
       "category": "producer_beats",
-      "cost": "Free to browse. Beat prices set by producers (typically $20–$500+). Starter $19.99/year; Growth $79.99/year; Professional $179.88/year. 12% service fee on marketplace sales.",
+      "cost": "Free to browse. Beat prices set by producers (typically $20–$500+). Starter $19.99/year; Growth $79.99/year; Professional $179.88/year. 12% service fee charged to buyers on marketplace sales.",
       "highlights": [
         "Largest producer community in the industry",
         "Instant beat delivery",
         "Custom licensing agreements",
-        "Updated subscription tiers as of September 2024"
+        "Updated subscription tiers as of September 2024",
+        "12% marketplace service fee (August 2023+)"
       ]
     },
     {
       "name": "Airbit",
       "url": "https://airbit.com",
-      "description": "Beat marketplace focused on producer-friendly pricing. Upload and sell beats with 100% revenue retention on paid plans. Under BandLab ownership since 2023, integrated with 60M+ user base.",
+      "description": "Beat marketplace focused on producer-friendly pricing. Upload and sell beats with 100% revenue retention on paid plans. Under BandLab ownership since 2023 (acquired by BandLab), now integrated with 60M+ user base. Marketplace commissions have been eliminated.",
       "category": "producer_beats",
       "cost": "Free tier (limited uploads). Platinum $19.99/mo or $7.99/mo annual. 100% revenue retention on paid plans.",
       "highlights": [
         "100% revenue to seller on paid plans",
         "Custom beat store builder",
         "BandLab integration (60M+ users)",
-        "Simplified 2-tier pricing structure"
+        "Acquired by BandLab in 2023 — expanded ecosystem",
+        "Marketplace commissions eliminated"
       ]
     },
     {
@@ -122,11 +125,11 @@
       "url": "https://splice.com",
       "description": "Massive royalty-free sample library used by 10M+ producers. Access millions of loops, one-shots, presets, and MIDI packs. In-DAW integrations with Pro Tools 2025.6+, Studio One 7+, and Ableton Live 12.3 (beta). Free account access to all free LABS instruments from Spitfire Audio.",
       "category": "producer_beats",
-      "cost": "Free tier with limited access. Instrument $12.99/mo; Creator $19.99/mo; Creator+ $39.99/mo. Plugin rent-to-own from $9.99/mo.",
+      "cost": "Free tier with limited access. Sounds+ $12.99/mo; Creator $19.99/mo; Creator+ $39.99/mo. Plugin rent-to-own from $9.99/mo.",
       "highlights": [
         "10M+ producer community",
         "AI-powered sample discovery",
-        "In-DAW integration with major DAWs",
+        "New in-DAW integrations: Pro Tools 2025.6+, Studio One 7+, Ableton Live 12.3 (beta)",
         "Acquired Spitfire Audio in 2025",
         "Free LABS instruments on free tier"
       ]
@@ -134,15 +137,16 @@
     {
       "name": "Tracklib",
       "url": "https://tracklib.com",
-      "description": "Legal sample-clearance platform. Browse a catalog of real, original recordings and license samples with pre-cleared rights for your productions. Mobile app launched May 2025. Now includes royalty-free 'Sounds' library alongside licensed 'Songs' library.",
+      "description": "Legal sample-clearance platform. Browse a catalog of real, original recordings and license samples with pre-cleared rights for your productions. Mobile app launched May 2025. Now includes royalty-free 'Sounds' library alongside licensed 'Songs' library. Sample clearance fees have been removed — licensing now included in subscription.",
       "category": "producer_beats",
-      "cost": "Free to browse and preview. Premium and Professional subscription plans with licensing included. Previous per-license pricing (Category A $1,500, B $500, C $50) now incorporated into subscription model.",
+      "cost": "Free to browse and preview. Premium and Professional subscription plans starting at $14.99/mo. Unlimited sample clearances included with subscription (no per-license upfront fees).",
       "highlights": [
         "Pre-cleared samples — no legal hassle",
         "Real original recordings, not recreations",
         "Mobile app available (May 2025)",
         "Royalty-free and licensed catalogs",
-        "Licensing included with subscription"
+        "Sample clearance now included in subscription",
+        "Old Category A/B/C pricing model obsolete"
       ]
     },
     {
@@ -160,28 +164,29 @@
     {
       "name": "LANDR",
       "url": "https://www.landr.com",
-      "description": "AI-powered mastering platform. Upload your track and get an instant master. Includes distribution to streaming platforms, sample packs, mastering plugin, and social platform monetization (Pro+ tier as of mid-2025). Standalone distribution plans also available.",
+      "description": "AI-powered mastering platform. Upload your track and get an instant master. Includes distribution to streaming platforms, sample packs, mastering plugin. Plan names updated; social platform monetization (YouTube, TikTok, Facebook, Instagram) removed from Basic tier as of June 2025.",
       "category": "mixing_mastering",
-      "cost": "Essentials $12.99/mo (unlimited MP3 masters, unlimited distribution, 100 sample credits); Standard $19.99/mo (3 WAV/mo, standard plugin, 150 credits); Pro $24.99/mo (unlimited MP3+WAV+HD WAV, unlimited distribution, 200 credits). 20–36% discount on annual billing. Distribution standalone from $23.99/year.",
+      "cost": "Studio $19.99/mo ($11.99/mo annual); Studio Pro $39.99/mo ($15.99/mo annual). Distribution Basic $24/year; Distribution Pro $45/year. 20–36% discount on annual billing.",
       "highlights": [
         "Unlimited free previews before you pay",
         "Includes distribution to Spotify, Apple Music, etc.",
         "DAW mastering plugin available",
-        "Social monetization on Pro tier (updated mid-2025)",
-        "Good for quick, affordable masters"
+        "Plan names updated (Studio/Studio Pro)",
+        "Social monetization now requires Pro+ tier (June 2025)"
       ]
     },
     {
       "name": "eMastered",
       "url": "https://emastered.com",
-      "description": "AI mastering service co-founded by a Grammy-winning engineer (Smith Carlson, Taylor Swift's 1989). More mastering controls than LANDR — adjust EQ, compression, stereo width, and loudness.",
+      "description": "AI mastering service co-founded by a Grammy-winning engineer (Smith Carlson, Taylor Swift's 1989). More mastering controls than LANDR — adjust EQ, compression, stereo width, and loudness. ⚠️ NOTE: Consumer reports of billing issues and difficulty cancelling subscriptions exist.",
       "category": "mixing_mastering",
-      "cost": "Entry-level: $19/mo annual commitment ($156/year for 12 months). Monthly plans available at higher rates. Includes unlimited high-res WAV downloads.",
+      "cost": "Pricing varies: approximately $15–$19/mo (annual billing) or $45–$49/mo (monthly). Includes unlimited high-res WAV downloads.",
       "highlights": [
         "More user-adjustable controls than competitors",
         "Grammy-winning engineer co-founder",
         "Unlimited WAV masters on subscription",
-        "Affordable annual plans available"
+        "⚠️ Verify current pricing directly — reports of inconsistent pricing across billing options",
+        "⚠️ Some users report billing and cancellation difficulties — verify terms before signup"
       ]
     },
     {
@@ -235,15 +240,15 @@
     {
       "name": "Vocalizr",
       "url": "https://vocalizr.com",
-      "description": "⚠️ Platform dedicated to connecting producers with vocalists and topline songwriters. NEW SIGNUPS CURRENTLY CLOSED. Existing users can still log in. Post public or private gigs, run vocal contests, and license ready-made vocals from their marketplace.",
+      "description": "⚠️ CLOSED TO NEW SIGNUPS — Platform dedicated to connecting producers with vocalists and topline songwriters. NEW SIGNUPS ARE CURRENTLY SUSPENDED (confirmed as of May 2026). Existing users can still log in and access the platform. Do NOT direct new users to sign up.",
       "category": "vocalist_songwriter",
-      "cost": "Access Pass: $11.99/mo. 3.9% service fee (minimum $3). Note: NEW SIGNUPS ARE SUSPENDED — do not direct new users to sign up until this changes.",
+      "cost": "Access Pass: $11.99/mo (for existing members only). 3.9% service fee (minimum $3). WARNING: New signups currently unavailable.",
       "highlights": [
-        "40,000+ topline songwriters worldwide",
+        "40,000+ topline songwriters worldwide (for existing members)",
         "Contest feature for discovering vocal talent",
         "Ready-made vocal marketplace",
         "Secure escrow payment system",
-        "⚠️ New signups currently unavailable"
+        "⚠️ NEW SIGNUPS SUSPENDED — Do not direct new users here"
       ]
     },
     {
@@ -285,11 +290,11 @@
     {
       "name": "ProCollabs",
       "url": "https://www.procollabs.com",
-      "description": "Online music collaboration platform with a manually verified membership. Share projects, find vocalists and songwriters, and collaborate across borders.",
+      "description": "Online music collaboration platform with a manually verified membership. Every new member application is manually verified by listening to their music and reviewing their bio (completed within 24 hours). Share projects, find vocalists and songwriters, and collaborate across borders.",
       "category": "collaboration_networking",
       "cost": "Free to join (manually verified).",
       "highlights": [
-        "Every member is manually vetted",
+        "Every member is manually vetted within 24 hours",
         "Project-based collaboration tools",
         "International community"
       ]
@@ -299,7 +304,7 @@
       "url": "https://www.vampr.me",
       "description": "The #1 music industry networking app — like LinkedIn for musicians. Swipe-based discovery connects you with musicians, producers, engineers, and industry professionals. Acquired by Vinyl Group in June 2023. All users can now distribute music free to Spotify, Apple Music, Deezer and major DSPs.",
       "category": "collaboration_networking",
-      "cost": "Free tier: music distribution available; keep 80% of royalties. Pro: $19.99/3 months or $44.99/year. Pro keeps 100% of royalties.",
+      "cost": "Free tier: music distribution available; keep 80% of royalties. Pro: $19.99/3 months or $44.99/year; Pro users keep 100% of royalties.",
       "highlights": [
         "1M+ musicians and industry professionals",
         "9M+ connections made",
@@ -311,7 +316,7 @@
     {
       "name": "BandLab",
       "url": "https://www.bandlab.com",
-      "description": "Free cloud-based DAW and social music platform with 100M+ users. Create, collaborate with up to 50 people per project, and share music — all from your browser or phone. Acquired Airbit in 2023, expanding its ecosystem.",
+      "description": "Free cloud-based DAW and social music platform with 100M+ users. Create, collaborate with up to 50 people per project, and share music — all from your browser or phone. Acquired Airbit in 2023, expanding its ecosystem with integrated beat marketplace.",
       "category": "collaboration_networking",
       "cost": "Free (all core features). Optional Membership tier for AI tools and distribution.",
       "highlights": [
@@ -339,14 +344,15 @@
     {
       "name": "Soundtrap",
       "url": "https://www.soundtrap.com",
-      "description": "Spotify-owned cloud DAW built for real-time collaboration. Multiple users can work on the same track simultaneously with video chat. Includes loops, instruments, and podcasting tools. Plan names may have been rebranded; verify current tiers at soundtrap.com.",
+      "description": "Spotify-owned cloud DAW built for real-time collaboration. Multiple users can work on the same track simultaneously with video chat. Includes loops, instruments, and podcasting tools.",
       "category": "collaboration_networking",
-      "cost": "Free tier available. Premium tiers from $9.99/mo. Soundtrap + Spotify Premium bundle $19.99/mo.",
+      "cost": "Free tier available. Premium tiers from $9.99/mo. Soundtrap + Spotify Premium bundle $19.99/mo (or $16.99/mo for annual plan).",
       "highlights": [
         "Real-time simultaneous collaboration with video chat",
         "Owned by Spotify",
         "New sound packs regularly added",
-        "Education plans available for classrooms"
+        "Education plans available for classrooms",
+        "Annual bundle option available"
       ]
     },
     {
@@ -354,7 +360,7 @@
       "url": "https://splice.com/community",
       "description": "Splice's community hub (via Discord) hosts beat battles, remix contests, and producer networking. 10M+ producers share projects, collaborate on stems, and participate in creative challenges.",
       "category": "collaboration_networking",
-      "cost": "Free (Discord community). Splice subscription from $12.99/mo (Instrument) or $19.99/mo (Creator).",
+      "cost": "Free (Discord community). Splice subscription from $12.99/mo (Sounds+) or $19.99/mo (Creator).",
       "highlights": [
         "10M+ producer community",
         "Beat battles with major producers (Murda Beatz, Chromeo)",
@@ -430,13 +436,13 @@
       "url": "https://www.songtrust.com",
       "description": "Global publishing administrator that registers your songs with 65+ collection societies across 240 countries and collects your publishing royalties. You retain 100% copyright ownership.",
       "category": "pro_rights",
-      "cost": "One-time $100 setup fee per songwriter. 15% commission on performance royalties; 20% on mechanical/non-performance royalties (as of January 1, 2025).",
+      "cost": "One-time $100 setup fee per songwriter. 15% commission on performance royalties; 20% on mechanical/non-performance royalties (in effect since January 1, 2025).",
       "highlights": [
         "Global reach: 65 societies, 240 countries",
         "You retain full copyright ownership",
         "No delivery obligations or advance requirements",
         "~150K streams to break even on setup fee",
-        "Mechanical royalty fee increased to 20% as of Jan 2025"
+        "Mechanical royalty fee: 20% (updated January 1, 2025)"
       ]
     },
     {
@@ -521,7 +527,7 @@
       "url": "https://splice.com/blog",
       "description": "Free tutorials and articles on music production, sampling, and creative workflows. Skills platform offers in-depth production courses for subscribers.",
       "category": "education",
-      "cost": "Blog: Free. Skills tutorials included with Splice subscription ($12.99/mo Instrument, $19.99/mo Creator, or higher).",
+      "cost": "Blog: Free. Skills tutorials included with Splice subscription ($12.99/mo Sounds+, $19.99/mo Creator, or higher).",
       "highlights": [
         "Production-focused educational content",
         "Covers sampling, synthesis, and arrangement",
@@ -531,28 +537,59 @@
     {
       "name": "Pibox",
       "url": "https://pibox.com",
-      "description": "Audio review and collaboration platform purpose-built for music production workflows. Pin feedback directly to specific notes in a track for organized async collaboration. Used by major media teams including Sony and Universal.",
+      "description": "Audio review and collaboration platform purpose-built for music production workflows. Pin feedback directly to specific notes in a track for organized async collaboration. Launched iOS mobile app in December 2025. Used by major media teams including Universal, Sony, and Epidemic Sound. Features AI tagging for organization.",
       "category": "collaboration_networking",
-      "cost": "Free plan (2GB storage). Paid tiers available (verify pricing at pibox.com).",
+      "cost": "Free plan (2GB storage). Paid tiers available with annual 10% discount. Verify current pricing at pibox.com/pricing.",
       "highlights": [
         "Pin feedback directly to specific notes",
         "Organized async collaboration",
-        "Used by Sony and Universal media teams",
-        "Ideal for producers and mix engineers"
+        "Used by Sony, Universal, and Epidemic Sound",
+        "iOS mobile app (launched December 2025)",
+        "AI tagging features for organization",
+        "Actively maintained and growing"
       ]
     },
     {
       "name": "Lutefish",
       "url": "https://lutefish.com",
-      "description": "Real-time online music collaboration platform debuted November 2024. Backed by Wenger Corporation (80-year-old music manufacturing company). Designed for online rehearsals and live session collaboration with low-latency performance comparable to playing in the same room, effective up to 500 miles away.",
+      "description": "⚠️ HARDWARE-REQUIRED REAL-TIME JAMMING PLATFORM — Not a pure software collaboration tool. Minnesota-based platform launched November 2024. Lutefish Stream is a plug-and-play hardware device (cost ~$250) connecting via Ethernet to a router, enabling real-time audio streaming with latency as low as 30–35ms for musicians up to 500 miles apart. Backed by Wenger Corporation (80-year music manufacturing company). Community features available free without hardware.",
       "category": "collaboration_networking",
-      "cost": "Verify pricing at lutefish.com.",
+      "cost": "Hardware device: ~$250. Subscription: $9.99/mo (or 20% discount on annual plan). Community/networking features available free without hardware purchase.",
       "highlights": [
-        "Low-latency real-time performance collaboration",
-        "Debuted November 2024",
+        "Real-time low-latency jamming (30–35ms latency)",
+        "Hardware-required for jamming sessions",
         "Backed by Wenger Corporation",
-        "Ideal for remote rehearsals and live sessions",
-        "Emerging platform with strong technical foundation"
+        "Each remote musician needs a Lutefish Stream device",
+        "Community networking features free without hardware",
+        "Annual subscription discount available (20% off)"
+      ]
+    },
+    {
+      "name": "CoCreatea",
+      "url": "https://cocreatea.com",
+      "description": "Complete social network for musicians built for collaboration. Collaborate for free, build long-term producer relationships, network across 29 specific music roles, and work with videographers and visual artists for music videos. Zero-commission platform. Currently in free beta.",
+      "category": "collaboration_networking",
+      "cost": "Free (beta).",
+      "highlights": [
+        "0% commission on collaborations",
+        "29 specific music roles for networking",
+        "Videographer and visual artist integration",
+        "Currently in free beta",
+        "Emerging platform worth monitoring"
+      ]
+    },
+    {
+      "name": "Audiomovers LISTENTO",
+      "url": "https://audiomovers.com",
+      "description": "Collection of plugins and apps designed to stream uncompressed audio from within your DAW. Supports novel formats including surround sound and Apple Music's spatial audio on the top tier. Ideal for professional remote session monitoring and real-time listening sessions.",
+      "category": "collaboration_networking",
+      "cost": "LISTENTO Basic $12.99/mo ($99.99/year); LISTENTO Pro $24.99/mo ($199/year).",
+      "highlights": [
+        "Uncompressed audio streaming within DAW",
+        "Surround sound support",
+        "Apple Music spatial audio support (Pro tier)",
+        "Professional remote session monitoring",
+        "Real-time listening sessions"
       ]
     }
   ]
