@@ -1,0 +1,110 @@
+{
+  "note": "Services deliberately removed from the MusicLaunch resource lists. The quarterly update scripts must never re-add them (scripts/guard.js enforces this). Match is by exact name (case-insensitive) or by URL host ending in one of `domains`. Edit this file to change the editorial decision.",
+  "excluded": [
+    {
+      "name": "Music Gateway",
+      "domains": [
+        "musicgateway.com"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Music Xray (SmashHaus)",
+      "domains": [
+        "musicxray.com",
+        "smashhaus.com"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Music Xray",
+      "domains": [],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "That Pitch",
+      "domains": [],
+      "reason": "Paid pitching service; reputation review May 9 2026 (the free ThatPitch blog is kept)"
+    },
+    {
+      "name": "UnitedMasters SELECT",
+      "domains": [],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Broadjam",
+      "domains": [
+        "broadjam.com"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Artist Portal Studio",
+      "domains": [],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Vampr",
+      "domains": [
+        "vampr.me"
+      ],
+      "reason": "Reputation review, May 9 2026 (re-added by the July 1 job; removed again Sep 17)"
+    },
+    {
+      "name": "Studio Pros",
+      "domains": [
+        "studiopros.com"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Songwhip",
+      "domains": [
+        "songwhip.com"
+      ],
+      "reason": "Defunct since July 2024"
+    },
+    {
+      "name": "ToneDen",
+      "domains": [
+        "toneden.io"
+      ],
+      "reason": "Broken fan links; reputation review May 9 2026"
+    },
+    {
+      "name": "Feedspot",
+      "domains": [
+        "feedspot.com"
+      ],
+      "reason": "F-tier BBB; reputation review May 9 2026"
+    },
+    {
+      "name": "Matchfy",
+      "domains": [
+        "matchfy.io"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "un:hurd music",
+      "domains": [
+        "unhurd.co.uk"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "PlaylistSupply",
+      "domains": [
+        "playlistsupply.com"
+      ],
+      "reason": "Reputation review, May 9 2026"
+    },
+    {
+      "name": "Playlist Pilot",
+      "domains": [
+        "playlistpilotapp.com"
+      ],
+      "reason": "Sells scraped curator emails for cold pitching (same model as PlaylistSupply); unverifiable press claims; removed Sep 17 2026"
+    }
+  ]
+}

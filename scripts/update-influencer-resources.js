@@ -10,6 +10,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const { sanitize, exclusionPromptLines } = require('./guard');
+
+// Must match the app's category union in musiclaunch/src/shared/constants/*-resources.ts —
+// the app only renders entries whose category is one of these keys.
+const VALID_CATEGORIES = ['submission_platforms', 'influencer_marketplaces', 'playlist_curators', 'tiktok_promotion', 'smart_links', 'discovery_research'];
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 if (!ANTHROPIC_API_KEY) {
@@ -177,13 +182,16 @@ ${JSON.stringify(current, null, 2)}
 INSTRUCTIONS:
 1. Update any resources where the research found changes (pricing, status, features, etc.)
 2. If a service has shut down, update its description to note this
-3. Add any new resources discovered in the research
+3. Add any new resources discovered in the research, except services on the EXCLUDED list
 4. Remove any that have completely shut down
 5. Set "version" to ${current.version + 1}
 6. Set "lastUpdated" to "${today}"
 7. If no changes were found for a resource, keep it exactly as-is
 
-VALID CATEGORIES: submission_platforms, influencer_marketplaces, playlist_curators, tiktok_promotion, smart_links, discovery_research
+EXCLUDED — never include these services, even if the research mentions them:
+${exclusionPromptLines()}
+
+VALID CATEGORIES (use exactly these keys): ${VALID_CATEGORIES.join(', ')}
 
 YOUR RESPONSE MUST BE ONLY THE JSON OBJECT. No text before it. No text after it. No markdown fences. Start with { and end with }. This is critical — the output will be parsed directly by JSON.parse().`
       }
@@ -208,6 +216,11 @@ YOUR RESPONSE MUST BE ONLY THE JSON OBJECT. No text before it. No text after it.
     console.error('Invalid JSON structure — missing resources array');
     process.exit(1);
   }
+
+  // Enforce exclusions and valid categories before anything is written (scripts/guard.js)
+  const guarded = sanitize(updated.resources, current.resources, VALID_CATEGORIES);
+  guarded.log.forEach((line) => console.log(`  guard: ${line}`));
+  updated.resources = guarded.resources;
 
   if (updated.resources.length < resourceCount * 0.5) {
     console.error(`Suspiciously few resources (${updated.resources.length} vs original ${resourceCount}). Aborting.`);
