@@ -6,14 +6,17 @@ on:
     - cron: '0 9 1 1,4,7,10 *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
-# All three resource-update workflows share this group so they're serialized
-# rather than racing on `git push`. Without this, manually triggering two
-# workflows at the same time causes the second push to fail with
-# "Updates were rejected because the remote contains work that you do not have locally."
-# `cancel-in-progress: false` means queued runs wait their turn instead of
-# being killed when a new run starts.
+# All three resource-update workflows share this group so only one runs at a
+# time, even when GitHub delays the crons and collapses the 15-minute stagger
+# (as on Jul 1 2026). That also keeps their Anthropic calls under the rate limit.
+# `queue: max` lets all of them wait their turn in order — with the default
+# (`queue: single`) only one run can wait, and a third arrival cancels it.
+# `cancel-in-progress: false` means a running job is never killed.
+# A queued run still checks out the commit from when it was triggered, so the
+# push step rebases onto the latest main before pushing.
 concurrency:
-  group: musiclaunch-data-push
+  group: musiclaunch-data-writes
+  queue: max
   cancel-in-progress: false
 
 jobs:
@@ -24,10 +27,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
 
@@ -54,4 +57,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add sync-resources.json
           git commit -m "Quarterly sync resource update — $(date +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
