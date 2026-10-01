@@ -1,11 +1,11 @@
 {
-  "version": 6,
-  "lastUpdated": "2026-09-17",
+  "version": 7,
+  "lastUpdated": "2026-10-01",
   "resources": [
     {
       "name": "Crucial Music",
       "url": "https://www.crucialmusic.com",
-      "description": "Non-exclusive sync agency with personalized service. 50/50 sync fee split; you keep 100% writer royalties. Must own masters and be registered with a PRO.",
+      "description": "Non-exclusive sync agency with personalized service. 50/50 sync fee split; you keep 100% writer royalties. Must own masters and publishing, have original songs, and be registered with a PRO. Three-year contract with non-exclusive rights to pitch and license; auto-renews if not canceled.",
       "category": "library_free",
       "cost": "Free to submit",
       "acceptsUnsolicited": true
@@ -13,12 +13,13 @@
     {
       "name": "Bodega Sync",
       "url": "https://bodegasync.com",
-      "description": "Division of Symphonic Distribution. Curated roster of indie artists/labels with 30+ years experience. Pre-cleared catalog for one-stop licensing. Note: requires a 2-year exclusive contract with 30% commission and does not register songs with PROs.",
+      "description": "Division of Symphonic Distribution. Curated roster of indie artists/labels. Pre-cleared catalog for one-stop licensing. Important: must be a Symphonic client to apply; Bodega is not a standalone service for all artists. Highly selective due to competitive nature of sync licensing.",
       "category": "library_free",
       "cost": "Free to apply",
-      "acceptsUnsolicited": true,
+      "acceptsUnsolicited": false,
       "highlights": [
-        "Strong in advertising and TV"
+        "Strong in advertising and TV",
+        "Symphonic Distribution clients only"
       ]
     },
     {
@@ -26,7 +27,7 @@
       "url": "https://www.taxi.com",
       "description": "Established in 1992. Publishes screened music-wanted listings from supervisors, labels, ad agencies, and game companies. Screeners review and forward qualifying tracks. Note: ~$300/year + $5/submission with reported placement rates around 6%; valuable mostly for feedback rather than placements.",
       "category": "library_paid",
-      "cost": "$299/yr first year, $199/yr renewal, $5/submission",
+      "cost": "$299.95/yr first year, $199.95/yr renewal, $5/submission",
       "acceptsUnsolicited": true,
       "highlights": [
         "Screened briefs from real supervisors",
@@ -36,117 +37,136 @@
     {
       "name": "Musicbed",
       "url": "https://www.musicbed.com",
-      "description": "Premium placements with brands like Nike, Google, Netflix, Spotify. High-quality curated catalog for film and advertising.",
-      "category": "library_selective",
-      "cost": "No upfront cost if accepted",
-      "acceptsUnsolicited": false
-    },
-    {
-      "name": "Marmoset",
-      "url": "https://www.marmosetmusic.com",
-      "description": "Indie-focused, creative approach. Non-exclusive deals, typically 50/50 split. Has paid artists over $44M all-time.",
+      "description": "Premium placements with brands like Nike, Google, Netflix, Spotify. High-quality curated catalog for film and advertising. Represents 1,500+ hand-picked artists and composers. Less than 1% acceptance rate.",
       "category": "library_selective",
       "cost": "No upfront cost if accepted",
       "acceptsUnsolicited": false,
       "highlights": [
-        "Submissions currently paused",
-        "$44M+ paid to artists"
+        "1,500+ hand-picked artists",
+        "Very selective (< 1% acceptance)",
+        "Active with Musicbed Challenge competitions"
+      ]
+    },
+    {
+      "name": "Marmoset",
+      "url": "https://www.marmosetmusic.com",
+      "description": "Indie-focused, creative approach. Non-exclusive deals, typically 50/50 split with personalized pitching to premium clients. Has paid artists over $44M all-time. Important: submissions open in limited rolling windows only, not year-round. Watch their submissions page for open periods.",
+      "category": "library_selective",
+      "cost": "No upfront cost if accepted",
+      "acceptsUnsolicited": false,
+      "highlights": [
+        "Submissions open in limited windows only",
+        "$44M+ paid to artists",
+        "Personalized pitching"
       ]
     },
     {
       "name": "Audio Network",
       "url": "https://www.audionetwork.com",
-      "description": "One of the largest global sync libraries with 300,000+ tracks. Transparent pricing, broadcast-ready music. International roster.",
+      "description": "One of the largest global sync libraries with 300,000+ tracks. Transparent pricing, broadcast-ready music. International roster. Artists fill out submission form with links/files; A&R team reviews and responds if music fits their style and quality standards.",
       "category": "library_selective",
       "cost": "No upfront cost if accepted",
       "acceptsUnsolicited": true,
       "highlights": [
         "300,000+ track library",
-        "Global reach"
+        "Global reach",
+        "Note: response rates can be low due to volume"
       ]
     },
     {
       "name": "Jingle Punks",
       "url": "https://www.jinglepunks.com",
-      "description": "Award-winning agency with offices in NYC, LA, Toronto, London. 400,000+ song library, 4,000+ artists. Exclusive contracts, 50/50 split. Note: not accepting new artist submissions as of September 2026.",
+      "description": "Award-winning agency with offices in NYC, LA, Toronto, London. 400,000+ song library, 4,000+ artists. Exclusive contracts, 50/50 split on sync license fees. Requires all submissions be fully mixed and mastered—no demos, works in progress, or cover songs.",
       "category": "library_selective",
       "cost": "No upfront cost if accepted",
       "acceptsUnsolicited": false,
       "highlights": [
         "Exclusive contracts",
-        "Typically 1-year auto-renew"
+        "50/50 split on sync fees",
+        "400,000+ song library",
+        "Requires fully mixed/mastered tracks only"
       ]
     },
     {
       "name": "Nightingale Music",
       "url": "https://www.nightingalemusic.com",
-      "description": "30+ years of experience. Custom pricing per project. Strong in Canadian and international productions. Personal support.",
+      "description": "The main production music library was acquired by EMI Production Music (April 2020) and is now owned by SONY/KPM. In US/Canada, contact APM Music; worldwide, contact KPM Music. However, the Nightingale Indie Label remains independently managed at nightingalemusic.com and does accept submissions for artist-driven sync content.",
       "category": "library_selective",
       "cost": "No upfront cost if accepted",
-      "acceptsUnsolicited": false
+      "acceptsUnsolicited": false,
+      "highlights": [
+        "Main library now under Sony/KPM",
+        "Indie Label still independent"
+      ]
     },
     {
       "name": "Pond5",
       "url": "https://www.pond5.com",
-      "description": "One of the largest royalty-free media marketplaces (25M+ stock clips). Artists upload tracks and set their own prices. Composer note: 30% royalty cut per sale; contributor music has been used for AI training.",
+      "description": "One of the largest royalty-free media marketplaces (25M+ stock clips). Part of Shutterstock family. Artists upload tracks and set their own prices. Important pricing change (Jan 15, 2025): non-exclusive artists now earn 30% royalty per sale; exclusive video artists earn 40%. No upfront costs to upload.",
       "category": "marketplace",
-      "cost": "Free to upload; Pond5 takes 70% commission",
+      "cost": "Free to upload; 30% artist royalty (non-exclusive) or 40% (exclusive video)",
       "acceptsUnsolicited": true,
       "highlights": [
         "Set your own prices",
-        "Non-exclusive"
+        "Non-exclusive available",
+        "⚠️ Pricing changed Jan 15, 2025"
       ]
     },
     {
       "name": "Artlist",
       "url": "https://artlist.io",
-      "description": "Subscription model for buyers. Curated catalog with high production standards. Popular with content creators and filmmakers. Note: not accepting music submissions as of September 2026.",
+      "description": "Subscription model for buyers. Curated catalog with high production standards. Popular with content creators and filmmakers. Music submissions are currently closed. Accepting submissions for SFX, filmmakers, motion designers, and template artists only.",
       "category": "marketplace",
       "cost": "Music submissions closed",
       "acceptsUnsolicited": false,
       "highlights": [
-        "High production standards required"
+        "High production standards required",
+        "Music submissions closed"
       ]
     },
     {
       "name": "Epidemic Sound",
       "url": "https://www.epidemicsound.com",
-      "description": "Artists receive upfront payments and revenue shares. 50/50 streaming royalty split plus access to a $4.2M annual Soundtrack Bonus pool. Composer note: Epidemic uses 100% buy-out contracts that have been formally denounced by the European Composer & Songwriter Alliance — composers transfer rights for the full term of protection and lose PRO royalties. Not accepting new artist applications as of September 2026.",
+      "description": "Artists receive upfront payments and revenue shares. 50/50 streaming royalty split forever plus access to a $4.2M annual Soundtrack Bonus pool (increased from $3.7M). Note: full buy-out contracts mean composers transfer rights and lose PRO royalties. New artist applications currently closed. Major announcement: 43% increase in artist bonus payments beginning 2026, plus $1M fund for AI-related adaptations.",
       "category": "marketplace",
       "cost": "Artist applications closed",
       "acceptsUnsolicited": false,
       "highlights": [
-        "Upfront payments",
-        "$4.2M bonus pool"
+        "Upfront payments + 50/50 royalties forever",
+        "$4.2M bonus pool (2026)",
+        "Artist applications closed",
+        "$1M AI adaptation fund (2026)"
       ]
     },
     {
       "name": "Jamendo",
       "url": "https://www.jamendo.com",
-      "description": "Accessible platform for indie musicians. Free uploads, non-exclusive. Unlimited submissions. YouTube Content ID integration.",
+      "description": "Accessible platform for indie musicians. Free uploads, non-exclusive. Unlimited submissions. YouTube Content ID integration. Founded 2004 with 70,000+ musicians and 600,000+ tracks. Warning: Jamendo is pursuing legal action against Nvidia and Suno for alleged unauthorized use of its catalog to train AI models (alerted end of 2024). Artists should be aware their Jamendo-hosted content may have been exposed to AI training datasets.",
       "category": "marketplace",
       "cost": "Free for artists",
       "acceptsUnsolicited": true,
       "highlights": [
         "Unlimited submissions",
-        "Content ID integration"
+        "Content ID integration",
+        "⚠️ AI training dataset concerns"
       ]
     },
     {
       "name": "Ditto Pro (Sync Dashboard)",
       "url": "https://dittomusic.com/en/sync",
-      "description": "Ditto Pro subscribers access sync briefs across TV, film, and ad campaigns. Ditto reviews tracks and pitches on your behalf.",
+      "description": "Ditto Pro subscribers access sync briefs across TV, film, and ad campaigns. Ditto reviews tracks and pitches on your behalf. Sync licensing only available on Pro plan. Price is £59/year (approximately $75–77 USD at current exchange rates).",
       "category": "pitching",
-      "cost": "Included with Ditto Pro ($59/yr)",
+      "cost": "£59/yr (~$75–77 USD) as part of Ditto Pro",
       "acceptsUnsolicited": true,
       "highlights": [
-        "Placements with Netflix, HBO, BBC"
+        "Placements with Netflix, HBO, BBC",
+        "⚠️ Price increased in USD terms vs. original $59 listing"
       ]
     },
     {
       "name": "Sync Money",
       "url": "https://syncmoney.ai",
-      "description": "Leading online community for sync licensing. Provides insider knowledge, industry connections, and access to real opportunities. The newsletter is free and sends sync briefs that subscribers can submit to; no paid tiers are listed. The website and blog haven't been updated since April 2025. Focus on getting real opportunities for music makers in TV, Film, Advertising, Video Games.",
+      "description": "Leading online community for sync licensing. Provides insider knowledge, industry connections, and access to real opportunities. Free newsletter sends curated sync briefs that subscribers can submit to. Website and blog last updated April 2025. Focus on getting real opportunities for music makers in TV, Film, Advertising, Video Games.",
       "category": "blog",
       "cost": "Free",
       "acceptsUnsolicited": null,
@@ -159,7 +179,7 @@
     {
       "name": "Nitrility",
       "url": "https://nitrility.com",
-      "description": "Blockchain-powered music-licensing marketplace. Search, request, negotiate, and clear sync licenses for songs from a 200-million-song catalog. Trusted by 80,000+ artists, labels, and publishers. Features include AI-powered search, expert curation, automated notifications, contract handling, payments, and dispute protection. Signing up and browsing is completely free; license prices vary by rights-holder. ⚠️ Selling is still limited to a select test group of artists and labels, and the promised opening to all rights-holders has been pending since at least September 2025; until then, license requests for songs you own are forwarded to you, and rights-holders can email to ask about early-partner access.",
+      "description": "Blockchain-powered music-licensing marketplace. Search, request, negotiate, and clear sync licenses for songs from a 200-million-song catalog. Trusted by 80,000+ artists, labels, and publishers. Features include AI-powered search, expert curation, automated notifications, contract handling, payments, and dispute protection. Free to browse and sign up; license prices vary by rights-holder. Raised $500K Seed round (June 2025). Important: seller access still limited to test group; full opening to all rights-holders pending.",
       "category": "marketplace",
       "cost": "Free to browse; license prices vary",
       "acceptsUnsolicited": false,
@@ -167,13 +187,14 @@
         "Blockchain-powered",
         "200M+ song catalog",
         "Free to browse",
-        "Seller access in limited beta"
+        "Seller access in limited beta",
+        "$500K seed funding (June 2025)"
       ]
     },
     {
       "name": "One Night Stand Music & Management",
       "url": "https://www.onenightstand.tv/music/",
-      "description": "Subscription-based sync licensing model. Direct pitching to film, TV, ads, gaming. Artists keep ownership of music and avoid losing rights. Zero commission on placements—flat $35/month subscription replaces commission model. Almost all opportunities are non-exclusive. Transparent, flexible approach focused on artist control.",
+      "description": "Subscription-based sync licensing model. Direct pitching to film, TV, ads, gaming. Artists keep ownership of music and avoid losing rights. Zero commission on placements—flat subscription fee replaces commission model. Almost all opportunities are non-exclusive. Transparent, flexible approach focused on artist control.",
       "category": "pitching",
       "cost": "$35/month",
       "acceptsUnsolicited": true,
@@ -186,7 +207,7 @@
     {
       "name": "Music Vine",
       "url": "https://musicvine.com",
-      "description": "Indie-friendly sync library with high-quality curation. Each track must be reviewed and approved. Artists need at least 50% exclusive catalog with platform. Revenue split: 60% on exclusive tracks, 35% on non-exclusive. Tailored for professional video and film creators who value exclusivity and quality. Known for high-quality curation and strong placement opportunities for independent composers. Artist applications are currently closed; Music Vine says it may reopen them but won't answer application inquiries until then.",
+      "description": "UK-based curated music licensing platform. High-quality curation with hand-picked approach. Each track must be reviewed and approved. Artists need at least 50% exclusive catalog with platform. Revenue split: 60% on exclusive tracks, 35% on non-exclusive. Known for quality over quantity and strong placement opportunities for independent composers. Important: AI policy (updated July 21, 2025) states they cannot accept music fully generated by AI. Artist applications currently closed.",
       "category": "library_selective",
       "cost": "No upfront cost if accepted",
       "acceptsUnsolicited": false,
@@ -194,7 +215,8 @@
         "60% exclusive / 35% non-exclusive",
         "High-quality curation",
         "Composer-friendly",
-        "Artist applications currently closed"
+        "Artist applications currently closed",
+        "No AI-generated music accepted"
       ]
     },
     {
@@ -228,7 +250,7 @@
     {
       "name": "Aristake — Sync Agents Guide",
       "url": "https://aristake.com/sync-agents/",
-      "description": "Free guide listing sync agents and how to get music synced on TV, video games, and films.",
+      "description": "Free guide listing sync agents and how to get music synced on TV, video games, and films. By Ari's Take Academy instructor Vo Williams. Reports 250+ students signed to sync agencies to date.",
       "category": "directory_free",
       "cost": "Free",
       "acceptsUnsolicited": null
@@ -236,7 +258,7 @@
     {
       "name": "Musco Sound — Library Submission Guide",
       "url": "https://www.michaelmusco.com/2017/02/how-to-submit-music-to-music-libraries.html",
-      "description": "Free guide with direct links to submit music to various tiers of sync libraries.",
+      "description": "Free guide with direct links to submit music to various tiers of sync libraries. Note: this is a 2017 blog post and content may be outdated; recommend finding more current submission guides.",
       "category": "directory_free",
       "cost": "Free",
       "acceptsUnsolicited": null
@@ -244,20 +266,20 @@
     {
       "name": "IMDb / IMDb Pro",
       "url": "https://www.imdb.com",
-      "description": "Look up music supervisors by searching film/TV credits. IMDb Pro provides contact details and project history.",
+      "description": "Look up music supervisors by searching film/TV credits. IMDb Pro provides contact details and project history. Monthly plan: $19.99/month; annual plan: $149.99/year (better value at $12.50/month). Group plan available at $79.99/month for up to 5 members. Amazon Prime members save up to 60% on first year.",
       "category": "directory_free",
-      "cost": "IMDb free; IMDb Pro ~$19.99/month",
+      "cost": "IMDb free; IMDb Pro $19.99/month or $149.99/year",
       "acceptsUnsolicited": null
     },
     {
       "name": "The Sync Report",
       "url": "https://www.thesyncreport.com",
-      "description": "1,000+ music supervisors, music buyers, and ad agency contacts in USA, UK, Canada, and Australia. TV calendar for optimal pitch timing.",
+      "description": "Comprehensive directory of 600+ music supervisors, music buyers, and ad agency contacts in USA, UK, Canada, and Australia. TV calendar showing what films and shows are currently in development. Includes production calendars for optimal pitch timing and weekly industry updates.",
       "category": "directory_paid",
-      "cost": "$99.95/6 months; $169.95/yr",
+      "cost": "$99.95/6 months; $169.95/year",
       "acceptsUnsolicited": null,
       "highlights": [
-        "1,000+ contacts",
+        "600+ contacts",
         "Weekly industry updates",
         "TV calendar"
       ]
@@ -265,31 +287,33 @@
     {
       "name": "Music Business Registry — Film & TV Music Guide",
       "url": "https://www.musicregistry.com",
-      "description": "Industry-standard directory for 30+ years. Thousands of listings with direct phone/email. Covers supervisors, studios, licensing execs, game companies.",
+      "description": "Industry-standard directory for 30+ years. Thousands of listings with direct phone/email. Covers supervisors, studios, licensing execs, game companies. Multiple format options available: PDF Edition ($150), Print Edition ($325), Print + PDF combo ($750), CSV File ($275).",
       "category": "directory_paid",
-      "cost": "From $150",
+      "cost": "From $150 (PDF edition); Print, CSV, and bundle options available",
       "acceptsUnsolicited": null,
       "highlights": [
         "Thousands of listings",
-        "30+ years industry standard"
+        "30+ years industry standard",
+        "Multiple format options"
       ]
     },
     {
       "name": "Underground Mix — Sync Library Submission List",
       "url": "https://join.underground-mix.com/library2026",
-      "description": "120+ vetted sync libraries, micro-licensing sites, and music houses. Includes submission checklist and email pitch template. Created by former Extreme Music / Paramount / Sony professionals.",
+      "description": "120+ vetted sync libraries, micro-licensing sites, and music houses. Includes submission checklist and email pitch template. Created by former Extreme Music / Paramount / Sony professionals. Annual URL update (previously /library2025, now /library2026).",
       "category": "directory_free",
       "cost": "Free (email signup)",
       "acceptsUnsolicited": null,
       "highlights": [
         "120+ libraries",
-        "Pitch template included"
+        "Pitch template included",
+        "Note: URL updates annually"
       ]
     },
     {
       "name": "Music Supervisors Directory",
       "url": "https://www.musicsupervisors.directory",
-      "description": "Curated directory of music supervisor contacts in LA, NYC, London, Canada, and Australia. Updated monthly.",
+      "description": "Redirects to The Sync Report. Curated directory of 600+ music supervisor contacts in LA, NYC, London, Canada, and Australia. Updated monthly. Subscription-based access.",
       "category": "directory_paid",
       "cost": "$99.95 per 6 months ($169.95/yr)",
       "acceptsUnsolicited": null
@@ -297,7 +321,7 @@
     {
       "name": "Songtrust — Sync Crash Course",
       "url": "https://www.songtrust.com/sync-crash-course",
-      "description": "Free crash course covering sync licensing fundamentals: deal structures, sync fees, rights, placement types, and royalty collection.",
+      "description": "Free crash course covering sync licensing fundamentals: deal structures, sync fees, rights, placement types, and royalty collection. Songtrust is a leading publishing administration platform.",
       "category": "education_free",
       "cost": "Free",
       "acceptsUnsolicited": null,
@@ -320,7 +344,7 @@
     {
       "name": "Dark Horse Institute — Sync Guide",
       "url": "https://darkhorseinstitute.com/sync-licensing-for-independent-artists/",
-      "description": "Blog with strategies and tips for getting sync placements as an independent musician.",
+      "description": "Blog with strategies and tips for getting sync placements as an independent musician. Dark Horse Institute is a music school in Nashville.",
       "category": "education_free",
       "cost": "Free",
       "acceptsUnsolicited": null
@@ -328,7 +352,7 @@
     {
       "name": "Collabhouse — Demystifying Sync Licensing",
       "url": "https://legacy.collabhouse.com/post/sync-licensing",
-      "description": "Guide explaining how sync licensing works as a revenue stream and exposure tool for independent artists.",
+      "description": "Guide explaining how sync licensing works as a revenue stream and exposure tool for independent artists. Note: URL is on a 'legacy' subdomain, suggesting content may have been migrated or archived; recommend checking if main collabhouse.com is still active.",
       "category": "education_free",
       "cost": "Free",
       "acceptsUnsolicited": null
@@ -336,7 +360,7 @@
     {
       "name": "2Indie — The Sync Society",
       "url": "https://www.2indie.com/syncsociety",
-      "description": "Private music licensing club. Weekly Zoom calls with industry professionals (sync agencies, supervisors, producers). Monthly curated sync sampler sent to agencies.",
+      "description": "Private music licensing club. Weekly Zoom calls with industry professionals (sync agencies, supervisors, producers). Monthly curated sync sampler sent to agencies. 14-day money-back guarantee.",
       "category": "education_paid",
       "cost": "$122/mo or $1,342/yr",
       "acceptsUnsolicited": null,
@@ -359,10 +383,14 @@
     {
       "name": "Ari's Take Academy — Advanced Sync Strategies",
       "url": "https://aristakeacademy.com/advanced-sync-strategies/",
-      "description": "Course on sync licensing including how to get signed to agents. Includes showcases with top-tier sync agencies and direct submission opportunities. Enrollment opens periodically; between sessions, admission is by application.",
+      "description": "Step-by-step course on sync licensing including how to get signed to agents. Includes showcases with top-tier sync agencies and direct submission opportunities. Enrollment opens and closes in cohorts. One-time payment of $997, or flexible monthly payment (~$62/month via Klarna/Afterpay).",
       "category": "education_paid",
       "cost": "$997 (or ~$62/mo via Klarna/Afterpay)",
-      "acceptsUnsolicited": null
+      "acceptsUnsolicited": null,
+      "highlights": [
+        "Cohort-based enrollment",
+        "Direct submission opportunities"
+      ]
     },
     {
       "name": "Sync My Music",
@@ -375,15 +403,19 @@
     {
       "name": "ThatPitch Blog",
       "url": "https://thatpitch.com/blog/",
-      "description": "Extensive articles on sync licensing opportunities, companies, fees, strategies, and trends.",
+      "description": "Extensive articles on sync licensing opportunities, companies, fees, strategies, and trends. Very active platform with multiple sync licensing articles and guides published through 2025.",
       "category": "blog",
       "cost": "Free",
-      "acceptsUnsolicited": null
+      "acceptsUnsolicited": null,
+      "highlights": [
+        "Comprehensive sync guides",
+        "Active 2025 updates"
+      ]
     },
     {
       "name": "Millennial Mind Sync Blog",
       "url": "https://www.millennialmind.co",
-      "description": "Articles on sync libraries, music supervisors, submission strategies, and free tools (music supervisor pitch generator, beat pricing calculator). No new posts since February 2024.",
+      "description": "Articles on sync libraries, music supervisors, submission strategies, and free tools (music supervisor pitch generator, beat pricing calculator). Last updated February 2024.",
       "category": "blog",
       "cost": "Free",
       "acceptsUnsolicited": null
@@ -399,7 +431,7 @@
     {
       "name": "The Sync Report Podcast",
       "url": "https://podcasts.apple.com/us/podcast/the-sync-report/id1594399671",
-      "description": "Podcast connecting songwriters with the sync licensing industry. No new episodes since February 2023; the 47-episode archive is still available.",
+      "description": "Podcast connecting songwriters with the sync licensing industry. Last new episode published February 2023; 47-episode archive remains available.",
       "category": "blog",
       "cost": "Free",
       "acceptsUnsolicited": null
