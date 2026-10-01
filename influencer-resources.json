@@ -1,31 +1,33 @@
 {
-  "version": 5,
-  "lastUpdated": "2026-09-17",
+  "version": 6,
+  "lastUpdated": "2026-10-01",
   "resources": [
     {
       "name": "SubmitHub",
       "url": "https://submithub.com",
-      "description": "The original music submission platform. Send your tracks directly to bloggers, playlist curators, and influencers. Free submissions (slow response) or premium credits (~$1–$4 per submission) for guaranteed feedback within 72 hours.",
+      "description": "The original music submission platform. Send your tracks directly to bloggers, playlist curators, and influencers. Free submissions (slow response, under 10% response rate) or premium credits (~$1–$3 per submission) for guaranteed feedback within 48 hours. New partnership with RouteNote offers 20% discount on credits.",
       "category": "submission_platforms",
-      "cost": "Free tier + premium credits (~$1–$4/submission)",
+      "cost": "Free tier + premium credits (~$1–$3/submission)",
       "highlights": [
         "1,700+ curators, bloggers & influencers",
-        "Guaranteed feedback on premium",
+        "Guaranteed feedback on premium (48 hours)",
         "Genre-targeted submissions",
-        "Detailed acceptance/decline stats"
+        "Detailed acceptance/decline stats",
+        "RouteNote partnership (20% discount)"
       ]
     },
     {
       "name": "Groover",
       "url": "https://groover.co",
-      "description": "Pitch your music to curators, media outlets, influencers, radio stations, and record labels. Pay-per-pitch model with a guaranteed response within 7 days. Strong European and international curator network.",
+      "description": "Pitch your music to curators, media outlets, influencers, radio stations, and record labels. Pay-per-pitch model with a guaranteed response within 7 days or Grooviz refunded automatically. Strong European and international curator network. Strategic partnerships with CD Baby, TuneCore, SoundCloud, UnitedMasters, Symphonic Distribution, Audiomack, and SACEM.",
       "category": "submission_platforms",
-      "cost": "From 2 Grooviz (~$2) per submission",
+      "cost": "From 2 Grooviz (~€2) per submission; packs from €46 with volume discounts",
       "highlights": [
-        "Guaranteed response within 7 days",
+        "Guaranteed response within 7 days or refund",
         "3,000+ curators worldwide",
         "Radio, press, and playlist coverage",
-        "High response rate"
+        "High response rate",
+        "Major distributor partnerships"
       ]
     },
     {
@@ -33,7 +35,7 @@
       "url": "https://musosoup.com",
       "description": "PR and promotion platform connecting independent musicians with music bloggers, playlisters, and podcasters. Automated campaign management with per-blog pricing and real-time tracking. Note: many curators charge for coverage (about £8–£12 each) on top of the one-time £42 campaign fee, though every paid offer also comes with a free option — budget accordingly.",
       "category": "submission_platforms",
-      "cost": "£42 campaign fee + optional paid offers (avg £8–£12)",
+      "cost": "£42 campaign fee (updated January 2026) + optional paid offers (avg £8–£12)",
       "highlights": [
         "Music blogs, podcasts & playlists",
         "Campaign tracking dashboard",
@@ -44,46 +46,49 @@
     {
       "name": "One Submit",
       "url": "https://www.one-submit.com",
-      "description": "Submit to over 2,200 music curators across Spotify playlists, TikTok influencers, music blogs, YouTube channels, magazines, and online radio stations — all from a single submission form.",
+      "description": "Submit to over 2,200 music curators across Spotify playlists, TikTok influencers, music blogs, YouTube channels, magazines, and online radio stations — all from a single submission form. Recently expanded to include TikTok influencer submissions and YouTube music channels/blogs.",
       "category": "submission_platforms",
-      "cost": "From $4 per submission ($6 per Spotify playlist)",
+      "cost": "From $5 per submission (music blogs); $6 per Spotify playlist",
       "highlights": [
         "2,200+ curators",
-        "Spotify, TikTok, blogs, radio",
+        "Spotify, TikTok, blogs, radio, YouTube",
         "Single submission form",
-        "Budget-friendly"
+        "Budget-friendly",
+        "TikTok influencer submissions available"
       ]
     },
     {
       "name": "Genni (formerly Songfluencer)",
       "url": "https://genni.com",
-      "description": "Creator marketing agency (formerly Songfluencer) that pairs your track with vetted TikTok, Instagram, and YouTube creators. Its team can manage the entire campaign — creator selection, briefing, content approval, and reporting — or you can run campaigns yourself on its self-serve platform.",
+      "description": "Creator marketing agency (rebranded from Songfluencer in 2024) that pairs your track with vetted TikTok, Instagram, and YouTube creators. Its team can manage the entire campaign — creator selection, briefing, content approval, and reporting — or you can run campaigns yourself on its self-serve platform. Acquired PushTok (TikTok music tech company). Creator network: 20,000+.",
       "category": "influencer_marketplaces",
-      "cost": "Managed campaigns by quote; self-serve from $500/mo",
+      "cost": "Managed campaigns by quote; self-serve from $500/mo (Professional: $500/mo + 10% surcharge; Premier: $1,000/mo + 5% surcharge)",
       "highlights": [
         "Music & entertainment focus",
         "Managed or self-serve campaigns",
         "Creator vetting & content approval",
-        "Used by major labels & indies"
+        "Used by major labels & indies",
+        "20,000+ creator network",
+        "Acquired PushTok for enhanced TikTok reach"
       ]
     },
     {
       "name": "SpaceLoud",
       "url": "https://spaceloud.com",
-      "description": "Self-serve marketplace where artists set their own budgets, browse influencer profiles, and manage campaigns directly. Good for artists who want hands-on control over creator selection and spending.",
+      "description": "Self-serve marketplace where artists set their own budgets, browse influencer profiles, and manage campaigns directly. Good for artists who want hands-on control over creator selection and spending. Free account signup available to start searching influencers.",
       "category": "influencer_marketplaces",
-      "cost": "From $20/mo + your campaign budget",
+      "cost": "Free signup; plan pricing quote-based or variable",
       "highlights": [
         "Self-serve platform",
         "Artist sets budget",
         "Direct creator selection",
-        "Cost-effective for small budgets"
+        "Free account creation"
       ]
     },
     {
       "name": "Kolsquare",
       "url": "https://www.kolsquare.com",
-      "description": "Influencer marketing platform with a database of millions of KOL (Key Opinion Leader) profiles across major social platforms. Search by niche, audience demographics, engagement rate, and more.",
+      "description": "Influencer marketing platform with a database of millions of KOL (Key Opinion Leader) profiles across major social platforms. Search by niche, audience demographics, engagement rate, and more. Established influencer marketing tool operating in Europe.",
       "category": "influencer_marketplaces",
       "cost": "Subscription-based (contact for pricing)",
       "highlights": [
@@ -96,20 +101,21 @@
     {
       "name": "Playlist Push",
       "url": "https://playlistpush.com",
-      "description": "One of the most established playlist promotion platforms. Matches your music with independent Spotify playlist curators based on genre. Also offers TikTok influencer campaigns. Transparent feedback from every curator.",
+      "description": "One of the most established playlist promotion platforms. Matches your music with independent Spotify playlist curators based on genre. Also offers TikTok influencer campaigns where creators can earn up to $250 per video depending on views. Transparent feedback from every curator.",
       "category": "playlist_curators",
-      "cost": "From $280/campaign (TikTok from $350)",
+      "cost": "From $285 Spotify campaigns (avg ~$450); TikTok campaigns from $340",
       "highlights": [
         "4,000+ verified Spotify playlists",
         "Genre-based matching",
         "Transparent feedback",
-        "Also offers TikTok campaigns"
+        "TikTok creator campaigns available",
+        "Creator earnings program"
       ]
     },
     {
       "name": "SubmitLink",
       "url": "https://submitlink.io",
-      "description": "Spotify playlist submission platform from the team behind artist.tools, with 900+ active vetted curators and bot screening of every playlist. A free campaign reaches two playlists per day; paid submissions cost $2–$5 per playlist, and you get account credit for any curator who doesn't respond within 7 days. Placement is not guaranteed.",
+      "description": "Spotify playlist submission platform from the team behind artist.tools, with 900+ active vetted curators and bot screening of every playlist. A free campaign reaches two playlists per day; paid submissions cost $2–$5 per playlist, and you get account credit for any curator who doesn't respond within 7 days. Key differentiator: curator vetting and integration of bot detection tools to ensure targeted playlists are authentic.",
       "category": "playlist_curators",
       "cost": "Free (2 playlists/day); $2–$5 per playlist",
       "highlights": [
@@ -125,48 +131,51 @@
     {
       "name": "Soundplate",
       "url": "https://soundplate.com",
-      "description": "Spotify playlist directory and submission tool. Browse hundreds of curator playlists by genre and submit your track directly to those that accept submissions. Submitting is free.",
+      "description": "Spotify playlist directory and submission tool combined with Soundplate Clicks — a marketing toolkit featuring smart links, artist pages, pre-saves, analytics, and email capture. Browse hundreds of curator playlists by genre and submit your track directly to those that accept submissions. Submitting is free.",
       "category": "playlist_curators",
-      "cost": "Free to submit",
+      "cost": "Free to submit; Soundplate Clicks Pro/Unlimited plan adds smart link tools",
       "highlights": [
         "Large playlist directory",
         "Genre filtering & search",
         "Direct submissions",
-        "Free submissions"
+        "Free submissions",
+        "Smart link and marketing tools available"
       ]
     },
     {
       "name": "Hypeddit",
       "url": "https://hypeddit.com",
-      "description": "Free music promotion tools including smart links, fan-gating pages, and a repost exchange network. Widely used in electronic and dance music but works across genres.",
+      "description": "Music promotion tools including smart links, fan-gating pages, and a repost exchange network. Four-tier pricing model: Free Plan (basic fan gates + smart links with branding), Pro Plan at $9.99/mo, Premium Plan at $19.99/mo, and Label Plan at $49.99/mo. Widely used in electronic and dance music but works across genres.",
       "category": "playlist_curators",
-      "cost": "Free; paid plans from $9/mo billed yearly ($14 month-to-month)",
+      "cost": "Free; Pro $9.99/mo; Premium $19.99/mo; Label $49.99/mo",
       "highlights": [
         "Free smart links",
         "Fan-gating for follows",
         "Repost exchange network",
-        "Popular in EDM community"
+        "Popular in EDM community",
+        "Clear 4-tier pricing structure"
       ]
     },
     {
       "name": "Indie Music Academy",
       "url": "https://indiemusicacademy.com",
-      "description": "Music marketing education and promotion services for independent artists, including a TikTok trending-sound campaign alongside Spotify and YouTube promotion. Offers courses, coaching, and done-for-you promotion.",
+      "description": "Music marketing education and promotion services for independent artists, including a TikTok trending-sound campaign alongside Spotify and YouTube promotion. Offers self-study courses ($497–$1,997), coaching programs ($3,000–$10,000+), premium mentorship ($10,000+), and stream-based campaigns (starting at $347 for 10,000 guaranteed real streams, scaling to $2,350 for 100,000 streams).",
       "category": "tiktok_promotion",
-      "cost": "Courses from $97; services vary",
+      "cost": "Courses from $497; stream campaigns from $347 (10k streams); coaching from $3,000+",
       "highlights": [
         "Education + promotion",
         "TikTok trending-sound campaigns",
         "Indie artist specialists",
-        "Community support"
+        "Community support",
+        "Guaranteed real streams programs"
       ]
     },
     {
       "name": "Ditto Music Promotions",
       "url": "https://dittomusic.com/en/promo",
-      "description": "Promotion arm of Ditto Music distribution. Offers 4-week Promo campaigns or Promo Plus package with 2 extra weeks of marketing plus paid social advertising. Promo costs $499 and Promo Plus $649 (one-time, US prices); both include playlist pitching, two guaranteed blog features, a press release and a social media plan.",
+      "description": "Promotion arm of Ditto Music distribution. Offers 4-week Promo campaigns or Promo Plus package with 2 extra weeks of marketing plus paid social advertising. Both include playlist pitching, two guaranteed blog features, a press release and a social media plan.",
       "category": "playlist_curators",
-      "cost": "$499–$649 per campaign",
+      "cost": "$249 (4-week Promo); $399 (6-week Promo Plus with paid ads)",
       "highlights": [
         "Integrated with Ditto distribution",
         "4-week Promo campaigns",
@@ -179,91 +188,97 @@
     {
       "name": "Feature.fm",
       "url": "https://feature.fm",
-      "description": "Smart links, pre-save pages, and marketing analytics for musicians. Create landing pages that route fans to their preferred streaming platform. Essential for tracking the results of influencer campaigns.",
+      "description": "Smart links, pre-save pages, and marketing analytics for musicians. Create landing pages that route fans to their preferred streaming platform. Essential for tracking the results of influencer campaigns. Pricing: Basic $8/mo (28 days analytics), Artist $19/mo (90 days), Pro Artist $39/mo (permanent data). Free plan available with 7-day analytics window.",
       "category": "smart_links",
-      "cost": "Free tier; paid plans from $8/mo ($7/mo billed yearly)",
+      "cost": "Free tier; Basic $8/mo; Artist $19/mo; Pro Artist $39/mo",
       "highlights": [
         "Smart links & pre-saves",
         "Click-through analytics",
         "Retargeting pixels",
-        "Free tier available"
+        "Free tier available",
+        "Multiple pricing tiers for different needs"
       ]
     },
     {
       "name": "Linkfire",
       "url": "https://linkfire.com",
-      "description": "Industry-standard smart link platform used by major labels and indie artists alike. Create beautiful landing pages, track clicks by geography and platform, and integrate with ad platforms.",
+      "description": "Industry-standard smart link platform used by major labels and indie artists alike. Create beautiful landing pages, track clicks by geography and platform, and integrate with ad platforms. Note: Free tier has been discontinued. Pricing: Pro $27/mo ($21/mo billed annually, 1 workspace, up to 5 seats). Teams $55/mo ($45/mo annually). No free tier available.",
       "category": "smart_links",
-      "cost": "Free trial, then a limited free account; Pro $27/mo ($21/mo billed yearly)",
+      "cost": "Pro $27/mo ($21/mo billed yearly); Teams $55/mo ($45/mo billed yearly)",
       "highlights": [
         "Industry standard",
         "Geo-targeted routing",
         "Detailed analytics",
-        "Ad platform integration"
+        "Ad platform integration",
+        "Note: Free tier discontinued"
       ]
     },
     {
       "name": "Social Blade",
       "url": "https://socialblade.com",
-      "description": "Free analytics tool for checking any public social media account's follower growth, engagement trends, and estimated earnings. Essential for vetting influencers before you reach out — spot fake followers and declining accounts.",
+      "description": "Free analytics tool for checking any public social media account's follower growth, engagement trends, and estimated earnings. Essential for vetting influencers before you reach out — spot fake followers and declining accounts. Pricing: Bronze $59.99/yr ($5/mo), Silver $149.99/yr ($12.50/mo), Gold $599.99/yr ($50/mo), Platinum $1,439.99/yr ($120/mo).",
       "category": "discovery_research",
-      "cost": "Free; Premium from $5.99/mo ($59.99/yr)",
+      "cost": "Free; Bronze $5/mo (annual); Silver $12.50/mo; Gold $50/mo; Platinum $120/mo",
       "highlights": [
         "Free follower analytics",
         "Growth trend tracking",
         "Spot fake followers",
-        "YouTube, TikTok, Instagram, Twitch, Facebook"
+        "YouTube, TikTok, Instagram, Twitch, Facebook",
+        "Multiple paid tiers for deeper insights"
       ]
     },
     {
       "name": "HypeAuditor",
       "url": "https://hypeauditor.com",
-      "description": "AI-powered influencer analytics and fraud detection platform. Analyzes audience quality, engagement authenticity, and demographics. Helps you avoid paying for influencers with fake or bot followers.",
+      "description": "AI-powered influencer analytics and fraud detection platform. Analyzes audience quality, engagement authenticity, and demographics. Helps you avoid paying for influencers with fake or bot followers. Free basic reports available; full access via paid plans starting at $299/mo billed annually. Limited free trials granted case-by-case by request.",
       "category": "discovery_research",
-      "cost": "Free basic reports; plans from $299/mo billed annually",
+      "cost": "Free basic reports; plans from $299/mo (Basic, annual); $499/mo (Pro, annual); Enterprise custom",
       "highlights": [
         "AI fraud detection",
         "Audience quality scoring",
         "Demographic analysis",
-        "Fake follower identification"
+        "Fake follower identification",
+        "40+ free tools available"
       ]
     },
     {
       "name": "Chartmetric",
       "url": "https://chartmetric.com",
-      "description": "Music industry analytics platform that tracks playlist placements, social media growth, and audience data across all platforms. See which playlists and influencers are driving streams for artists in your genre.",
+      "description": "Music industry analytics platform that tracks playlist placements, social media growth, and audience data across all platforms. See which playlists and influencers are driving streams for artists in your genre. 2026 pricing: Free (limited lookups), Artist $10/mo ($60/yr), Manager $480/yr, Premium $1,400/yr, API $350+/mo.",
       "category": "discovery_research",
-      "cost": "Free tier; paid plans from $40/mo billed yearly ($60 month-to-month)",
+      "cost": "Free tier; Artist $10/mo ($60/yr); Manager $480/yr; Premium $1,400/yr; API $350+/mo",
       "highlights": [
         "Cross-platform music analytics",
         "Playlist tracking",
         "Influencer impact data",
-        "Genre benchmarking"
+        "Genre benchmarking",
+        "Restructured pricing with cheaper artist entry tier"
       ]
     },
     {
       "name": "SpotOnTrack",
       "url": "https://spotontrack.com",
-      "description": "Music analytics tool (Spotify, Apple Music, Deezer, Shazam, TikTok and more) that tracks your playlist placements, follower growth, and streaming trends over time. Useful for measuring the impact of influencer and playlist campaigns.",
+      "description": "Music analytics tool tracking Spotify, Apple Music, Deezer, Shazam, TikTok, and Instagram data. Tracks your playlist placements, follower growth, and streaming trends over time. Useful for measuring the impact of influencer and playlist campaigns. 14-day free trial (no credit card required); pay yearly and get 2 months free. Radio play tracking charged separately at £24.99 per song per year.",
       "category": "discovery_research",
-      "cost": "14-day free trial, then €29.99/mo (2 months free if paid yearly)",
+      "cost": "€29.99/mo; 14-day free trial; 2 months free if paid yearly; radio tracking £24.99/song/yr",
       "highlights": [
-        "Spotify, Apple Music, Deezer & Shazam data",
+        "Spotify, Apple Music, Deezer, Shazam, TikTok & Instagram data",
         "Playlist placement history",
         "Follower growth charts",
-        "Campaign impact measurement"
+        "Campaign impact measurement",
+        "14-day free trial available"
       ]
     },
     {
       "name": "SoundCampaign",
       "url": "https://soundcamps.com",
-      "description": "Playlist pitching service that sends your track to vetted Spotify curators for written feedback, with TikTok and Instagram creator campaigns and Meta ads also available. You set the budget (from $80) and pay only for completed reviews; its Artist Protection Program credits back any review that doesn't happen. Says it has served 100,000+ artists and labels since 2018.",
+      "description": "Playlist pitching service that sends your track to vetted Spotify curators for written feedback, with TikTok and Instagram creator campaigns and Meta ads also available. You set the budget (from $69) and pay only for completed reviews; Artist Protection Program credits back any review that doesn't happen. TikTok creator promotion now offered alongside Spotify playlists. Says it has served 100,000+ artists and labels since 2018.",
       "category": "playlist_curators",
-      "cost": "From $80 per campaign",
+      "cost": "From $69 per campaign (Standard $69, Premium $129, Pro $229, Custom $400+)",
       "highlights": [
         "100K+ artists and labels since 2018",
         "1B+ streams generated (company figure)",
-        "Budgets from $80",
+        "Budget from $69 (lower than listed)",
         "Pay only for completed reviews",
         "Real curator feedback",
         "Artist Protection Program",
@@ -274,47 +289,96 @@
     {
       "name": "TikTok for Artists",
       "url": "https://artists.tiktok.com",
-      "description": "Official TikTok platform for artists with music insights and analytics on songs, posts, and followers. Helps artists build careers, connect with fans, improve promotional efforts, and inform content creation on TikTok. Pre-Release tool lets fans pre-save upcoming albums and EPs to Spotify or Apple Music from TikTok. Free; requires a certified TikTok Artist Account. Note: TikTok's US app moved to a new US joint venture in January 2026 and remains available.",
+      "description": "Official TikTok platform for artists with music insights and analytics on songs, posts, and followers. Helps artists build careers, connect with fans, improve promotional efforts, and inform content creation on TikTok. Pre-Release tool lets fans pre-save upcoming albums and EPs to Spotify or Apple Music directly from TikTok with integrated campaign optimization. Free; requires a certified TikTok Artist Account. Note: TikTok Creator Marketplace closed to new projects in March 2025 and was replaced by TikTok One.",
       "category": "tiktok_promotion",
       "cost": "Free",
       "highlights": [
         "Official TikTok tool",
         "Music insights & analytics",
-        "Pre-Release tool (pre-save integration)",
+        "Pre-Release tool with direct DSP pre-save integration",
         "Direct Spotify/Apple Music integration",
         "Fan connection features",
         "Must-include indie artist tool",
-        "Requires a certified TikTok Artist Account"
+        "Requires a certified TikTok Artist Account",
+        "Pre-release campaign optimization tools"
       ]
     },
     {
       "name": "Viberate",
       "url": "https://viberate.com",
-      "description": "Music analytics and discovery tool offering real-time playlist placement alerts and rank change notifications across Spotify, TikTok, Airplay, and YouTube. Features artist charts, performance benchmarking, and geographic listener maps. Lower-cost alternative to Chartmetric, with plans from $49/mo ($33/mo billed yearly).",
+      "description": "Music analytics and discovery tool offering real-time playlist placement alerts and rank change notifications across Spotify, TikTok, YouTube, Instagram, and radio airplay. Features artist charts, performance benchmarking, and geographic listener maps. Tracks 11+ million artists. Lower-cost alternative to Chartmetric with pricing at €19.90/mo for full access.",
       "category": "discovery_research",
-      "cost": "From $49/mo ($33/mo billed yearly)",
+      "cost": "€19.90/mo (Premium); significantly lower than previously listed",
       "highlights": [
         "Music analytics platform",
         "Real-time playlist alerts",
-        "Multi-platform tracking (Spotify, TikTok, Airplay, YouTube)",
+        "Multi-platform tracking (Spotify, TikTok, YouTube, Instagram, radio)",
         "Artist charts & benchmarking",
         "Geographic listener maps",
         "Rank change notifications",
-        "Plans from $49/mo ($33/mo billed yearly)",
-        "Strong alternative to Chartmetric"
+        "Tracks 11M+ artists",
+        "Major pricing drop from $49 to ~€19.90/mo"
       ]
     },
     {
       "name": "Sound.me",
       "url": "https://sound.me",
-      "description": "Influencer campaign platform that connects artists with TikTok, Instagram, and YouTube Shorts creators who use your track in their content. Automated matching based on genre and creator audience; you pay only for approved posts.",
+      "description": "Influencer campaign platform that connects artists with TikTok, Instagram, and YouTube Shorts creators who use your track in their content. Automated matching based on genre and creator audience; you pay only for approved posts. Music influencer campaigns start at $250.",
       "category": "influencer_marketplaces",
-      "cost": "Set your own budget (from ~$80)",
+      "cost": "From $250 per campaign",
       "highlights": [
         "3M+ creators in 61 countries",
         "TikTok, Reels & Shorts",
         "Automated genre matching",
         "Performance tracking"
+      ]
+    },
+    {
+      "name": "Breakr",
+      "url": "https://breakr.co",
+      "description": "Music-first influencer marketplace built specifically for sound activation campaigns across TikTok, Instagram, YouTube, and Twitch. Creator network of 20,000+ influencers onboarded. Secured $9 million in venture funding with $3 million in revenue. Backed by investors including Nas. Integrated into Songstats marketing tools with Live Nation connections.",
+      "category": "influencer_marketplaces",
+      "cost": "Pricing includes 10% finder's fee built into displayed creator prices",
+      "highlights": [
+        "Music-first network",
+        "20,000+ creator network",
+        "Multi-platform campaigns (TikTok, Instagram, YouTube, Twitch)",
+        "Sound activation focus",
+        "$9M venture funding",
+        "Industry backing (Nas)",
+        "Integrated with Songstats",
+        "Live Nation connections"
+      ]
+    },
+    {
+      "name": "Collabstr",
+      "url": "https://collabstr.com",
+      "description": "General influencer marketplace with strong music use case across TikTok, Instagram, and YouTube. Creator network of 450,000+ personally identity-verified influencers with fake follower/engagement auditing. Basic free tier with 10% marketplace fee; Pro $299/mo (or ~$149/mo annual) with 5% fee. Payment held in escrow until you approve work.",
+      "category": "influencer_marketplaces",
+      "cost": "Free tier (10% fee); Pro $299/mo or ~$149/mo (annual) with 5% fee",
+      "highlights": [
+        "450,000+ verified creators",
+        "TikTok, Instagram, YouTube",
+        "Identity verification & fraud auditing",
+        "Escrow payment protection",
+        "Free tier available",
+        "Affordable Pro tier",
+        "Indie artist-friendly"
+      ]
+    },
+    {
+      "name": "TikTok SoundOn",
+      "url": "https://soundon.global",
+      "description": "TikTok's own music distribution platform allowing independent artists to upload music directly to TikTok and YouTube Music with 100% royalties going to the artist in year one. SoundOn is free and distributes to TikTok immediately. Trade-off: after year one, 10% is taken from Spotify, Apple Music, and other third-party DSPs if your music performs outside TikTok.",
+      "category": "submission_platforms",
+      "cost": "Free",
+      "highlights": [
+        "TikTok-native distribution",
+        "100% royalties year one",
+        "Immediate TikTok upload",
+        "YouTube Music distribution",
+        "Free service",
+        "Best for TikTok-first discovery"
       ]
     }
   ]
